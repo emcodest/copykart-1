@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="890" height="30" viewBox="0 0 890 30">
+  <g id="Group_241" data-name="Group 241" transform="translate(-375 -45)">
+    <g id="Group_236" data-name="Group 236">
+      <text id="Create" transform="translate(415 67)" fill="#747474" font-size="20" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">Create</tspan></text>
+      <g id="Group_225" data-name="Group 225" transform="translate(138 -260.145)">
+        <circle id="Ellipse_78" data-name="Ellipse 78" cx="15" cy="15" r="15" transform="translate(237 305.145)" fill="#2263de"/>
+        <path id="Union_15" data-name="Union 15" d="M4,10V8H2A2,2,0,0,1,2,4H4V2A2,2,0,0,1,8,2V4h2a2,2,0,0,1,0,4H8v2a2,2,0,0,1-4,0Z" transform="translate(246 314.145)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="Group_237" data-name="Group 237" transform="translate(-19)">
+      <text id="Campaigns" transform="translate(586 67)" fill="#747474" font-size="20" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">Campaigns</tspan></text>
+      <g id="Group_232" data-name="Group 232">
+        <circle id="Ellipse_78-2" data-name="Ellipse 78" cx="15" cy="15" r="15" transform="translate(546 45)" fill="#2263de"/>
+        <g id="_726186" data-name="726186" transform="translate(553.984 53)">
+          <g id="Group_227" data-name="Group 227" transform="translate(0.016 3.389)">
+            <g id="Group_226" data-name="Group 226">
+              <path id="Path_826" data-name="Path 826" d="M6.881,131.6v-5.236c-.148.014-.3.037-.445.044H2.161a.429.429,0,0,0-.429.429v.429H.445a.429.429,0,0,0-.429.429v2.574a.429.429,0,0,0,.429.429H1.732v.429a.429.429,0,0,0,.429.429h.26l1.725,4.6a.853.853,0,0,0,.632.534.84.84,0,0,0,.775-.236l1.031-1.022a.856.856,0,0,0,.158-.993L5.3,131.561h1.14C6.589,131.568,6.734,131.591,6.881,131.6Z" transform="translate(-0.016 -126.368)" fill="#fff"/>
+            </g>
+          </g>
+          <g id="Group_229" data-name="Group 229" transform="translate(7.739)">
+            <g id="Group_228" data-name="Group 228">
+              <path id="Path_827" data-name="Path 827" d="M293.953.208a.306.306,0,0,0-.027-.04.424.424,0,0,0-.179-.137s0,0-.007-.005-.016,0-.025,0a.427.427,0,0,0-.12-.024.4.4,0,0,0-.083.017.474.474,0,0,0-.048.009.426.426,0,0,0-.188.122s-.009,0-.012.008a9.03,9.03,0,0,1-5.247,3.109V8.75a9.029,9.029,0,0,1,5.247,3.108s.009.006.014.011a.416.416,0,0,0,.106.082c.013.008.023.019.036.025a.442.442,0,0,0,.175.038.448.448,0,0,0,.145-.025s0,0,.007-.005a.417.417,0,0,0,.179-.137c.01-.014.018-.026.027-.04a.415.415,0,0,0,.07-.221V.429A.415.415,0,0,0,293.953.208Z" transform="translate(-288.016)" fill="#fff"/>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+    <g id="Group_238" data-name="Group 238" transform="translate(-17)">
+      <text id="Collaborate" transform="translate(778 67)" fill="#747474" font-size="20" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">Collaborate</tspan></text>
+      <g id="Group_231" data-name="Group 231" transform="translate(501 -260.145)">
+        <circle id="Ellipse_78-3" data-name="Ellipse 78" cx="15" cy="15" r="15" transform="translate(237 305.145)" fill="#2263de"/>
+      </g>
+      <path id="ic_people_48px" d="M12.194,14.078a2.039,2.039,0,1,0-2.039-2.039A2.035,2.035,0,0,0,12.194,14.078Zm-5.437,0a2.039,2.039,0,1,0-2.039-2.039A2.035,2.035,0,0,0,6.757,14.078Zm0,1.359c-1.587,0-4.757.8-4.757,2.379v1.7h9.514v-1.7C11.514,16.232,8.344,15.437,6.757,15.437Zm5.437,0c-.2,0-.418.014-.656.037a2.849,2.849,0,0,1,1.335,2.341v1.7h4.078v-1.7C16.951,16.232,13.781,15.437,12.194,15.437Z" transform="translate(744 45)" fill="#fff"/>
+    </g>
+    <g id="Group_239" data-name="Group 239" transform="translate(-28)">
+      <text id="My_designs" data-name="My designs" transform="translate(985 67)" fill="#747474" font-size="20" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">My designs</tspan></text>
+      <g id="Group_234" data-name="Group 234" transform="translate(708 -260.145)">
+        <circle id="Ellipse_78-4" data-name="Ellipse 78" cx="15" cy="15" r="15" transform="translate(237 305.145)" fill="#2263de"/>
+      </g>
+      <g id="Icon_8_" transform="translate(890 -10)">
+        <g id="Group_233" data-name="Group 233" transform="translate(64 64)">
+          <path id="Path_828" data-name="Path 828" d="M76.908,75.474V65.434A1.438,1.438,0,0,0,75.474,64H65.434A1.438,1.438,0,0,0,64,65.434v10.04a1.438,1.438,0,0,0,1.434,1.434h10.04A1.438,1.438,0,0,0,76.908,75.474ZM67.944,71.53l1.793,2.151,2.51-3.227,3.227,4.3H65.434Z" transform="translate(-64 -64)" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_240" data-name="Group 240" transform="translate(-12)">
+      <text id="Integrations" transform="translate(1163 67)" fill="#747474" font-size="20" font-family="Rubik-Regular, Rubik"><tspan x="0" y="0">Integrations</tspan></text>
+      <g id="Group_235" data-name="Group 235" transform="translate(886 -260.145)">
+        <circle id="Ellipse_78-5" data-name="Ellipse 78" cx="15" cy="15" r="15" transform="translate(237 305.145)" fill="#2263de"/>
+      </g>
+      <g id="gear" transform="translate(1131 53)">
+        <g id="Group_14" data-name="Group 14">
+          <path id="Path_15" data-name="Path 15" d="M14.673,5.724l-1.364-.341a6.31,6.31,0,0,0-.252-.6l.725-1.208a.311.311,0,0,0-.047-.379l-2.02-2.021a.311.311,0,0,0-.379-.047l-1.208.725a6.255,6.255,0,0,0-.6-.252L9.184.235A.31.31,0,0,0,8.883,0H6.026a.31.31,0,0,0-.3.235L5.383,1.6a6.27,6.27,0,0,0-.6.252L3.573,1.126a.311.311,0,0,0-.379.047L1.173,3.194a.311.311,0,0,0-.047.379l.725,1.208a6.291,6.291,0,0,0-.252.6L.235,5.724a.31.31,0,0,0-.235.3V8.883a.31.31,0,0,0,.235.3L1.6,9.525a6.309,6.309,0,0,0,.252.6l-.725,1.208a.311.311,0,0,0,.047.379l2.02,2.02a.312.312,0,0,0,.379.047l1.208-.725a6.291,6.291,0,0,0,.6.252l.341,1.364a.31.31,0,0,0,.3.235H8.883a.31.31,0,0,0,.3-.235l.341-1.364a6.309,6.309,0,0,0,.6-.252l1.208.725a.311.311,0,0,0,.379-.047l2.02-2.02a.311.311,0,0,0,.047-.379l-.725-1.208a6.291,6.291,0,0,0,.252-.6l1.364-.341a.31.31,0,0,0,.235-.3V6.026A.31.31,0,0,0,14.673,5.724ZM7.454,11.181a3.727,3.727,0,1,1,3.727-3.727A3.731,3.731,0,0,1,7.454,11.181Z" fill="#fff"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
