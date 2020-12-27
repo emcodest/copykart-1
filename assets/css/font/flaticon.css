@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 18/12/2020 21:33
+  	Creation date: 27/12/2020 18:00
   	*/
 
 @font-face {
@@ -64,3 +64,15 @@ margin-left: 20px;
 .flaticon-mortgage:before { content: "\f11f"; }
 .flaticon-asset-management:before { content: "\f120"; }
 .flaticon-portfolio:before { content: "\f121"; }
+.flaticon-forward-arrow:before { content: "\f122"; }
+.flaticon-shuffle:before { content: "\f123"; }
+.flaticon-check:before { content: "\f124"; }
+.flaticon-lock:before { content: "\f125"; }
+.flaticon-earth-globe-with-continents-maps:before { content: "\f126"; }
+.flaticon-earth:before { content: "\f127"; }
+.flaticon-delete:before { content: "\f128"; }
+.flaticon-shield:before { content: "\f129"; }
+.flaticon-right-arrow:before { content: "\f12a"; }
+.flaticon-open-padlock-silhouette:before { content: "\f12b"; }
+.flaticon-padlock-unlock:before { content: "\f12c"; }
+.flaticon-unlocked-padlock-filled-shape:before { content: "\f12d"; }
