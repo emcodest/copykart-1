@@ -69,6 +69,32 @@
 
     });
 
+    $('.btn-submit-ad').on('click', function (e) {
+        e.preventDefault();
+        $('.large-display-notif').addClass('show-flex');
+
+        setTimeout(function () {
+            $('.large-display-notif').removeClass('show-flex');
+        }, 3000);
+    });
+
+    $('.page-desc ~ .d-flex .campaign-title').on('click', function () {
+        $('.campaigns-list-wrap').toggleClass('show');
+    });
+
+    $('.campaigns-list-wrap .nav-item').each(function () {
+        $(this).on('click', function (e) {
+            e.preventDefault();
+            $('.campaign-target-img').attr('src', $(this).attr('data-img'));
+            $('.campaign-target-text').text($(this).attr('data-name'))
+        });
+
+    });
+
+
+
+
+
     function removeActive(elem) {
         for (var i = 0; i < elem.length; i++) {
             if (elem.hasClass('active')) {

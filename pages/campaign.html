@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook Ad Copy</title>
+    <title>Campaign</title>
     <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
     <script src="https://cdn.jsdelivr.net/npm/@editorjs/header@latest"></script>
     <script src="https://cdn.jsdelivr.net/npm/@editorjs/paragraph@latest"></script>
@@ -261,156 +261,118 @@
         </nav>
 
         <div class="container">
-            <div class="campaign-title">
-                <img src="../assets/icons/Create.svg" alt="" srcset="">
-                Facebook Ad Copy
-            </div>
-
-            <div class="row">
-                <div class="col-6">
-                    <div class="campaign-form-wrap">
-                        <div class="d-flex mb-5">
-                            <button class="btn btn-arrow active btn-arrow-right">Ad Settings</button>
-                            <button class="btn btn-arrow btn-arrow-right">Ad Setup</button>
-                        </div>
-                        <form action="">
-                            <div class="form-group">
-                                <label for="facebook-page">Facebook Page</label>
-                                <select id="" class="form-control campaign-input select" name="">
-                                    <option selected>Select Facebook page</option>
-                                </select>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="facebook-campaign">Facebook Campaign</label>
-                                <select id="" class="form-control campaign-input select" name="">
-                                    <option selected>Select Facebook Campaign</option>
-                                </select>
-                            </div>
-
-                            <div class="form-group">
-                                <label for="facebook-page">Ad Set</label>
-                                <select id="" class="form-control campaign-input select" name="">
-                                    <option selected>Select Facebook Ad Set</option>
-                                </select>
-                            </div>
-
-
-
-
-
-
-                            <div class="d-flex justify-content-end mt-5">
-                                <div class="btn-wrap ml-auto">
-
-                                    <button class="btn btn-cancel btn-submit-ad">
-                                        Next
-                                    </button>
-                                </div>
-                            </div>
-                        </form>
+            <div class="page-desc">My Campaigns</div>
+            <div class="d-flex align-items-center justify-content-between">
+                <div class="campaign-title">
+                    <img class="campaign-target-img" src="../assets/icons/Create.svg" alt="" srcset="">
+                    <span class="campaign-target-text">Facebook Ad Copy</span>
+                    <span class="flaticon-arrow-down-sign-to-navigate icons icon-drop"></span>
+                    <div class="campaigns-list-wrap">
+                        <ul class="nav flex-column">
+                            <li class="nav-item" data-img="../assets/icons/Help.svg" data-name="Facebook Ad Copy">
+                                <a class="nav-link" href="">
+                                    <img class="create-icons" src="../assets/icons/Help.svg" alt="facebook icon">
+                                    Facebook Ad Copy
+                                </a>
+                            </li>
+                            <li class="nav-item" data-img="../assets/icons/Create.svg" data-name="Google Ad Copy">
+                                <a class="nav-link" href="">
+                                    <img class="create-icons" src="../assets/icons/Create.svg" alt="facebook icon">
+                                    Google Ad Copy
+                                </a>
+                            </li>
+                            <li class="nav-item" data-img="../assets/icons/Create.svg" data-name="LinkedIn Ad Copy">
+                                <a class="nav-link" href="">
+                                    <img class="create-icons" src="../assets/icons/Create.svg" alt="facebook icon">
+                                    LinkedIn Ad Copy
+                                </a>
+                            </li>
+                            <li class="nav-item" data-img="../assets/icons/Create.svg" data-name="Instagram Ad Copy">
+                                <a class="nav-link" href="">
+                                    <img class="create-icons" src="../assets/icons/Create.svg" alt="facebook icon">
+                                    Instagram Ad Copy
+                                </a>
+                            </li>
+                            <li class="nav-item" data-img="../assets/icons/Create.svg" data-name="TikTok Ad Copy">
+                                <a class="nav-link" href="">
+                                    <img class="create-icons" src="../assets/icons/Create.svg" alt="facebook icon">
+                                    TikTok Ad Copy
+                                </a>
+                            </li>
+                            <li class="nav-item" data-img="../assets/icons/Create.svg" data-name="Tagline Copy">
+                                <a class="nav-link" href="">
+                                    <img class="create-icons" src="../assets/icons/Create.svg" alt="facebook icon">
+                                    Tagline Copy
+                                </a>
+                            </li>
+                            <li class="nav-item" data-img="../assets/icons/Create.svg" data-name="Seo Meta Tag">
+                                <a class="nav-link" href="">
+                                    <img class="create-icons" src="../assets/icons/Create.svg" alt="facebook icon">
+                                    Seo Meta Tag
+                                </a>
+                            </li>
+                            <li class="nav-item" data-img="../assets/icons/Create.svg" data-name="Product Description">
+                                <a class="nav-link" href="">
+                                    <img class="create-icons" src="../assets/icons/Create.svg" alt="facebook icon">
+                                    Product Description
+                                </a>
+                            </li>
+                            <li class="nav-item" data-img="../assets/icons/Create.svg" data-name="Landing Page">
+                                <a class="nav-link" href="">
+                                    <img class="create-icons" src="../assets/icons/Create.svg" alt="facebook icon">
+                                    Landing Page
+                                </a>
+                            </li>
+                            <li class="nav-item" data-img="../assets/icons/Create.svg" data-name="Email Copy">
+                                <a class="nav-link" href="">
+                                    <img class="create-icons" src="../assets/icons/Create.svg" alt="facebook icon">
+                                    Email Copy
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="social-outter">
-                        <div class="floating-socials">
-                            <nav class="nav">
-                                <a class="floating-socials-item" href="#">
-                                    <img src="../assets/icons/Create.svg" alt="facebook">
-                                </a>
-                                <a class="floating-socials-item" href="#">
-                                    <img src="../assets/icons/Create.svg" alt="instagram">
-                                </a>
-                                <a class="floating-socials-item" href="#">
-                                    <img src="../assets/icons/Create.svg" alt="twitter">
-                                </a>
-                            </nav>
+
+                <div class="d-flex">
+                    <div class="date-selector">
+                        <span class="flaticon-calendar icons calendar-icon"></span>
+                        <select id="my-select" class="form-control no-shadow" name="">
+                            <option selected>Quick Dates</option>
+                        </select>
+                    </div>
+
+                    <button class="btn btn-search-campaign">
+                        <span class="flaticon-search icons"></span>
+                    </button>
+                </div>
+            </div>
+
+
+            <div class="row facebook-wrap">
+                <div class="col-3">
+                    <div class="campaign-box create-box" data-toggle="modal" data-target="#modal-create">
+                        <span class="flaticon-add icons create-icn"></span>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="campaign-box" data-toggle="modal" data-target="#modal-create">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="campaign-image-wrap mb-0">
+                                <img src="../assets/icons/notification.svg" alt="">
+                            </div>
+                            <div class="campaign-source">
+                                Facebook Ad Copy
+                            </div>
                         </div>
-                        <div class="social-wrap bordered">
-                            <div class="floating-check">
-                                <span class="flaticon-check icons"></span>
-                            </div>
 
-                            <div class="floating-lock">
-                                <span id="locker" class="flaticon-lock icons"></span>
-                            </div>
-
-
-                            <div class="social-heading">
-                                <img class="social-image rounded" src="../assets/icons/Create.svg" alt="">
-                                <div class="social-head-main">
-                                    <div class="social-title">
-                                        ArtCulture BMC
-                                    </div>
-                                    <div class="social-audience">
-                                        Sponsored
-                                        <span class="flaticon-earth icons audience-icon"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="editor" id="editorjs">
-
-                            </div>
-                            <div class="link-section">
-                                <a href="https://artculturebmc.com/">https://artculturebmc.com/</a>
-                            </div>
-                            <div class="user-interaction-section">
-                                <div class="interactions-wrap">
-                                    <img class="emoji-icons" src="../assets/icons/Day:Night.svg" alt="">
-                                    <img class="emoji-icons" src="../assets/icons/Day:Night.svg" alt="">
-                                    <span class="interaction-value">411</span>
-                                </div>
-                                <div class="comment-share">
-                                    <div class="comments-value">123 Comments</div>
-                                    <div class="share">30 <span class="flaticon-forward-arrow icons share-icon"></span>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="user-secondary-action">
-                                <div>
-                                    <div class="main-action">
-                                        <button class="btn forward-btn">
-                                            <span class="flaticon-forward-arrow icons"></span>
-                                        </button>
-                                        <select id="select-lang" name="">
-                                            <option selected>English</option>
-                                        </select>
-
-                                        <button class="btn forward-btn">
-                                            Publish Copy
-                                        </button>
-
-                                    </div>
-                                </div>
-                                <div class="icon-action">
-                                    <nav class="nav">
-                                        <a class="actions-social active" href="#">
-                                            <span class="flaticon-shield icons"></span>
-                                        </a>
-                                        <a id="love-work" class="actions-social" href="#">
-                                            <span class="flaticon-like icons"></span>
-                                        </a>
-                                        <a class="actions-social" href="#">
-                                            <span class="flaticon-delete icons"></span>
-                                        </a>
-                                    </nav>
-                                </div>
-                            </div>
+                        <div class="campaign-name">
+                            Spotify Ad Copy
                         </div>
                     </div>
                 </div>
             </div>
 
-        </div>
-    </div>
 
-    <div class="large-display-notif">
-        <div class="d-flex flex-column align-items-center">
-            <span class="flaticon-right-arrow icons arrow-icon"></span>
-            <div class="desc">
-                The other AD Setup and scheduling happens inside the
-                Facebook AD manager. Same with Google
-            </div>
         </div>
     </div>
 

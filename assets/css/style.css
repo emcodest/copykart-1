@@ -531,7 +531,11 @@
 }
 
 .show {
-    display: block;
+    display: block !important;
+}
+
+.show-flex {
+    display: flex !important;
 }
 
 .campaign-box {
@@ -566,44 +570,44 @@
     color: var(--assent-color);
 }
 
-.campaign-box.facebook {
+.facebook {
     background-color: #d1e3f6;
 }
 
-.campaign-box.google {
-    background-color: #fde2e2;
+.google {
+    background-color: #fde2e2 !important;
 }
 
-.campaign-box.linkedin {
-    background-color: #cce3f0;
+.linkedin {
+    background-color: #cce3f0 !important;
 }
 
-.campaign-box.instagram {
-    background-color: #e3d3f2;
+.instagram {
+    background-color: #e3d3f2 !important;
 }
 
-.campaign-box.tiktok {
-    background-color: #d1eff6;
+.tiktok {
+    background-color: #d1eff6 !important;
 }
 
-.campaign-box.tagline {
-    background-color: #fad6ed;
+.tagline {
+    background-color: #fad6ed !important;
 }
 
-.campaign-box.seo {
-    background-color: #fde7ee;
+.seo {
+    background-color: #fde7ee !important;
 }
 
-.campaign-box.product-desc {
-    background-color: #f5d1e1;
+.product-desc {
+    background-color: #f5d1e1 !important;
 }
 
-.campaign-box.landing-page {
-    background-color: #d2dff8;
+.landing-page {
+    background-color: #d2dff8 !important;
 }
 
-.campaign-box.email-copy {
-    background-color: #d1eff5;
+.email-copy {
+    background-color: #d1eff5 !important;
 }
 
 #modal-create .close {
@@ -793,11 +797,19 @@ input:checked+.slider:before {
     margin-right: 1rem;
 }
 
+.social-outter {
+    position: relative;
+}
+
 .social-wrap {
     position: relative;
     overflow: hidden;
-    border: 2px solid var(--assent-color);
+    margin-bottom: 1.5rem;
     padding: 1.5rem;
+}
+
+.social-wrap.bordered {
+    border: 2px solid var(--assent-color);
 }
 
 .social-wrap .floating-check {
@@ -1027,6 +1039,7 @@ input:checked+.slider:before {
     background-color: #007bff;
     border-color: #007bff;
 }
+
 .user-secondary-action {
     margin-top: 1.6rem;
     display: flex;
@@ -1087,4 +1100,140 @@ input:checked+.slider:before {
 
 .codex-editor__redactor {
     padding-bottom: 30px !important;
+}
+
+.floating-socials {
+    position: absolute;
+    bottom: -40px;
+    left: 15px;
+    background-color: #ffffff;
+    padding: 0.7rem 0.9rem;
+    z-index: 999;
+    box-shadow: 1px 0 7px #bebebe;
+    border-radius: 1.5rem;
+}
+
+.floating-socials .floating-socials-item img {
+    width: 2rem;
+    margin-right: 0.5rem;
+}
+
+.large-display-notif {
+    display: none;
+    position: fixed;
+    background-color: #ffffff9a;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    z-index: 99999;
+}
+
+.large-display-notif .arrow-icon::before {
+    font-size: 10rem;
+    color: var(--assent-color);
+}
+
+.large-display-notif .desc {
+    font-size: 1.3rem;
+    max-width: 650px;
+    margin-top: -60px;
+}
+
+.page-desc {
+    font-size: 1rem;
+    color: var(--assent-color);
+}
+
+.page-desc~.d-flex .campaign-title {
+    cursor: pointer;
+    position: relative;
+    font-size: 0.8rem;
+}
+
+.icon-drop::before {
+    font-size: 0.6rem;
+    margin-left: 0.8rem;
+
+}
+
+.campaign-title .campaigns-list-wrap {
+    display: none;
+    position: absolute;
+    box-shadow: 1px 0 7px #bebebe;
+    background-color: #ffffff;
+    width: 220px;
+    border-radius: 1rem;
+    z-index: 9999;
+    top: 66px;
+    left: 50%;
+    margin-left: -100px;
+    padding: 1.2rem 1rem;
+}
+
+.date-selector {
+    display: flex;
+    align-items: center;
+    background-color: #f4f7fa;
+    padding: 0.2rem 0.8rem;
+    border-radius: 0.5rem;
+}
+
+.date-selector select {
+    background-color: transparent;
+    border: none;
+    font-size: 0.8rem;
+    padding: .375rem 0.3rem;
+}
+
+.date-selector select:focus {
+    background-color: transparent;
+}
+
+.date-selector .calendar-icon::before {
+    font-size: 1.1rem;
+    margin-right: 0.5rem;
+}
+
+.btn-search-campaign {
+    background-color: #f4f7fa;
+    margin-left: 1rem;
+    border-radius: 0.5rem;
+}
+
+.btn-search-campaign span::before {
+    font-size: 1rem;
+    font-weight: 800;
+    color: var(--assent-color);
+}
+
+.create-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 176px;
+}
+
+.campaign-box .campaign-source {
+    color: var(--assent-color);
+    margin-left: 0.7rem;
+    font-size: 0.9rem;
+}
+
+.create-box .create-icn::before {
+    font-size: 3rem;
+}
+
+.bg-light-blue {
+    background-color: #fbfcfd;
+}
+
+.facebook-wrap .campaign-box {
+    background-color: #d1e3f6;
+}
+
+.facebook-wrap .create-icn::before {
+    color: var(--assent-color);
 }
