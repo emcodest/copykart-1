@@ -571,7 +571,7 @@
 }
 
 .facebook {
-    background-color: #d1e3f6;
+    background-color: #d1e3f6 !important;
 }
 
 .google {
@@ -1236,4 +1236,13 @@ input:checked+.slider:before {
 
 .facebook-wrap .create-icn::before {
     color: var(--assent-color);
+}
+
+
+.google-wrap .campaign-box {
+    background-color: #fde2e2;
+}
+
+.google-wrap .create-icn::before {
+    color: #eb4132;
 }
