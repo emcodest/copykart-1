@@ -839,7 +839,7 @@ input:checked+.slider:before {
     right: 5px;
     top: 5px;
     background-color: #e9f0fc;
-    padding: 0.1rem 0.4rem;
+    padding: 0.1rem 0.5rem;
     border-radius: 0.5rem;
     cursor: pointer;
 }
@@ -892,6 +892,14 @@ input:checked+.slider:before {
     display: flex;
     border-bottom: 2px solid #c8cbd1;
     padding: 0.7rem 0;
+}
+
+.user-interaction-section .linkedin-actions {
+    font-size: 0.8rem;
+}
+
+.linkedin-actions .nav-link {
+    padding: 0.3rem 0.5rem;
 }
 
 .interactions-wrap .emoji-icons {
