@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31">
+  <g id="Group_80" data-name="Group 80" transform="translate(-0.109 -0.031)">
+    <circle id="Ellipse_41" data-name="Ellipse 41" cx="15.5" cy="15.5" r="15.5" transform="translate(0.109 0.031)" fill="#d23d19"/>
+    <g id="instagram" transform="translate(7.419 8.094)">
+      <path id="Path_24" data-name="Path 24" d="M11.12,0h-6.4A4.724,4.724,0,0,0,0,4.718v6.4a4.724,4.724,0,0,0,4.718,4.718h6.4a4.724,4.724,0,0,0,4.718-4.718v-6.4A4.724,4.724,0,0,0,11.12,0Zm3.125,11.12a3.125,3.125,0,0,1-3.125,3.125h-6.4A3.125,3.125,0,0,1,1.593,11.12v-6.4A3.125,3.125,0,0,1,4.718,1.593h6.4a3.125,3.125,0,0,1,3.125,3.125v6.4Z" fill="#fff"/>
+      <path id="Path_25" data-name="Path 25" d="M18.1,14a4.1,4.1,0,1,0,4.1,4.1A4.1,4.1,0,0,0,18.1,14Zm0,6.6a2.5,2.5,0,1,1,2.5-2.5A2.5,2.5,0,0,1,18.1,20.6Z" transform="translate(-10.176 -10.176)" fill="#fff"/>
+      <circle id="Ellipse_7" data-name="Ellipse 7" cx="0.982" cy="0.982" r="0.982" transform="translate(11.042 2.872)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

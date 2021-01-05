@@ -4,10 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>Facebook Ad Copy</title>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/header@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/paragraph@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/simple-image@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/image@2.3.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/embed@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/delimiter@latest"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
 
 </head>
 
@@ -15,7 +22,7 @@
     <div class="container-fluid px-0">
         <nav class="navbar navbar-expand navbar-light navmenu">
             <a class="navbar-brand" href="#">
-                <img src="assets/icons/logo.svg" alt="logo">
+                <img src="../assets/icons/logo.svg" alt="logo">
             </a>
             <!-- <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
             aria-expanded="false" aria-label="Toggle navigation"></button> -->
@@ -23,7 +30,7 @@
                 <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                     <li class="nav-item">
                         <span class="nav-link create-btn" href="#">
-                            <img class="nav-icon-img" src="assets/icons/Create.svg" alt="create icon" />
+                            <img class="nav-icon-img" src="../assets/icons/Create.svg" alt="create icon" />
 
                             Create
 
@@ -31,48 +38,42 @@
                                 <ul class="nav flex-column">
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons"
-                                                src="assets/icons/Copykart icons/Drop down Icons/Facebook.svg"
+                                            <img class="create-icons" src="../assets/icons/Create.svg"
                                                 alt="facebook icon">
                                             Facebook Ad
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons"
-                                                src="assets/icons/Copykart icons/Drop down Icons/Google.svg"
+                                            <img class="create-icons" src="../assets/icons/Create.svg"
                                                 alt="facebook icon">
                                             Google Ad
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons"
-                                                src="assets/icons/Copykart icons/Drop down Icons/Linkedin.svg"
+                                            <img class="create-icons" src="../assets/icons/Create.svg"
                                                 alt="facebook icon">
                                             LinkedIn Ad
                                         </a>
                                     </li>
                                     <li class="nav-item py-2">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons"
-                                                src="assets/icons/Copykart icons/Drop down Icons/see more.svg"
+                                            <img class="create-icons" src="../assets/icons/Create.svg"
                                                 alt="facebook icon">
                                             See All Social Ad
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons"
-                                                src="assets/icons/Copykart icons/Drop down Icons/wordpress.svg"
+                                            <img class="create-icons" src="../assets/icons/Create.svg"
                                                 alt="facebook icon">
                                             Blog Post
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons"
-                                                src="assets/icons/Copykart icons/Drop down Icons/medium.svg"
+                                            <img class="create-icons" src="../assets/icons/Create.svg"
                                                 alt="facebook icon">
                                             Medium
                                         </a>
@@ -86,25 +87,25 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <img class="nav-icon-img" src="assets/icons/Campaigns.svg" alt="campaign icon">
+                            <img class="nav-icon-img" src="../assets/icons/Campaigns.svg" alt="campaign icon">
                             Campaigns
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <img class="nav-icon-img" src="assets/icons/collaborate.svg" alt="collaborate icon">
+                            <img class="nav-icon-img" src="../assets/icons/collaborate.svg" alt="collaborate icon">
                             Collaborate
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <img class="nav-icon-img" src="assets/icons/my designs.svg" alt="design icon">
+                            <img class="nav-icon-img" src="../assets/icons/my designs.svg" alt="design icon">
                             My designs
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">
-                            <img class="nav-icon-img" src="assets/icons/integrations.svg" alt="Integerations icon">
+                            <img class="nav-icon-img" src="../assets/icons/integrations.svg" alt="Integerations icon">
                             Integerations
                         </a>
                     </li>
@@ -132,7 +133,7 @@
                                 <div class="workspace-list">
                                     <div class="workspace-list-item">
                                         <div class="workspace-name">
-                                            <img src="assets/icons/user.svg" alt="">
+                                            <img src="../assets/icons/user.svg" alt="">
                                             Ejem Odinakachi Austin
                                         </div>
                                         <div class="workspace-status">
@@ -143,7 +144,7 @@
                                 </div>
                                 <div class="workspace-option-foot">
                                     <a class="btn btn-block" href="#">
-                                        <img class="icon-img" src="assets/icons/Create.svg" alt="new workspace icon">
+                                        <img class="icon-img" src="../assets/icons/Create.svg" alt="new workspace icon">
                                         New workspace
                                     </a>
                                     <a class="btn btn-block mt-0" href="#">
@@ -157,28 +158,28 @@
                     <ul class="nav align-items-center secondary-actions">
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <img class="right-icons" src="assets/icons/Day:Night.svg" alt="day/night">
+                                <img class="right-icons" src="../assets/icons/Day:Night.svg" alt="day/night">
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <img class="right-icons-sm" src="assets/icons/Help.svg" alt="help">
+                                <img class="right-icons-sm" src="../assets/icons/Help.svg" alt="help">
                             </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">
-                                <img class="right-icons-sm" src="assets/icons/notification.svg" alt="notification">
+                                <img class="right-icons-sm" src="../assets/icons/notification.svg" alt="notification">
                             </a>
                         </li>
                         <li class="nav-item">
                             <span class="nav-link profile-btn" href="#">
-                                <img class="right-icons-sm" src="assets/icons/profile.svg" alt="profile">
+                                <img class="right-icons-sm" src="../assets/icons/profile.svg" alt="profile">
 
                                 <div class="profile-option">
                                     <div class="top-section">
                                         <div class="user-info">
                                             <div class="user-image">
-                                                <img class="user-icon" src="assets/icons/profile-user.svg" alt="">
+                                                <img class="user-icon" src="../assets/icons/profile-user.svg" alt="">
                                             </div>
                                             <div class="username-wrap">
                                                 <div class="name">
@@ -260,149 +261,143 @@
         </nav>
 
         <div class="container">
-            <h5 class="main-title">
-                Hello Austin, What would you love to copy today?
-            </h5>
+            <div class="campaign-title">
+                <img src="../assets/icons/Create.svg" alt="" srcset="">
+                LinkedIn Ad Copy
+            </div>
+
             <div class="row">
-                <div class="col-3">
-                    <div class="dashboard-box first">
-                        <div class="icon-circle">
-                            <img src="assets/icons/Copykart icons/Dashboard card/start creating copy.svg"
-                                class="icon-dashboard">
-                        </div>
-                        <h1 class="desc">
-                            Start <br>
-                            creating <br>
-                            copy here
-                        </h1>
-                        <a class="nav-link link-dashboard" href="">#SEEHOW</a>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="dashboard-box second">
-                        <div class="icon-circle">
-                            <img src="assets/icons/Copykart icons/Dashboard card/all created copy.svg"
-                            class="icon-dashboard">
-                        </div>
-                        <h1 class="desc">
-                            All <br>
-                            created <br>
-                            copies
-                        </h1>
-                        <a class="nav-link link-dashboard" href="">#SEEHOW</a>
-                    </div>
-                </div>
-
-                <div class="col-3">
-                    <div class="dashboard-box third">
-                        <div class="icon-circle">
-                           <span class="flaticon-like icons icon-dashboard-font"></span>
-                        </div>
-                        <h1 class="desc">
-                            My <br>
-                            favourite <br>
-                            copies
-                        </h1>
-                        <a class="nav-link link-dashboard" href="">#SEEHOW</a>
-                    </div>
-                </div>
-
-                <div class="col-3">
-                    <div class="dashboard-box forth">
-                        <div class="d-flex align-items-center mb-3">
-
-                            <div class="icon-circle">
-                                <img src="assets/icons/Copykart icons/Dashboard card/account overview.svg"
-                                class="icon-dashboard">
+                <div class="col-6">
+                    <div class="campaign-form-wrap">
+                        <form action="">
+                            <div class="form-group">
+                                <label for="product-name">Company Name</label>
+                                <input type="text" class="form-control campaign-input" name="" id="product-name"
+                                    placeholder="">
                             </div>
-                            <div class="account-title">
-                                Account <br>
-                                Overview
+                            <div class="form-group">
+                                <label for="audience-input">Audience</label>
+                                <input type="text" class="form-control campaign-input" name="" id="audience-input"
+                                    placeholder="Eg. ecom, millennials, internet marketing">
                             </div>
-
-                        </div>
-                        <div class="dash-stat">
-                            <div class="stat-item">
-                                <div class="stat-name">Account Type</div>
-                                <div class="stat-value">
-                                    Basic
+                            <div class="form-group">
+                                <label for="desc-input">Description</label>
+                                <textarea class="form-control campaign-input" name="" id="desc-input" cols="30" rows="5"
+                                    placeholder="Eg. We sell everything god and nice"></textarea>
+                            </div>
+                            <div class="row mt-4 mb-2">
+                                <div class="col-4">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control campaign-input" name="" id=""
+                                            placeholder="Add Keywords" value="Brand Keywords">
+                                    </div>
+                                </div>
+                                <div class="col-8">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control campaign-input" name="" id=""
+                                                    placeholder="Add Keywords" value="Keywords to avoid">
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="stat-item">
-                                <div class="stat-name">Workspace</div>
-                                <div class="stat-value">
-                                    2/5
+                            <div class="d-flex align-items-center">
+                                <span class="check-label">Quality Score</span>
+                                <label class="switch mb-0">
+                                    <span class="desc-on">On</span>
+                                    <span class="desc-off">Off</span>
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+
+                            <div class="d-flex justify-content-end align-items-center mt-5">
+                                <div class="campaign-info">Your ads are saved by default unless you delete them</div>
+                                <div class="btn-wrap ml-auto">
+                                    <button class="btn btn-cancel">
+                                        Cancel
+                                    </button>
+                                    <button class="btn btn-go">
+                                        Generate
+                                    </button>
                                 </div>
                             </div>
-                            <div class="stat-item">
-                                <div class="stat-name">Invited Team</div>
-                                <div class="stat-value">
-                                    3/10
+                        </form>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="social-outter">
+                        <div class="social-wrap bg-light-blue">
+                            
+
+                            <div class="floating-lock">
+                                <span class="flaticon-lock icons locker"></span>
+                            </div>
+                            <div class="social-heading">
+                                <img class="social-image" src="../assets/icons/Create.svg" alt="">
+                                <div class="social-head-main">
+                                    <div class="social-title">
+                                        ArtCulture BMC
+                                    </div>
+                                    <div class="social-audience">
+                                        323 Followers <br>
+                                        Promoted
+                                       
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <a class="nav-link link-dashboard" href="">More...</a>
-                    </div>
-                </div>
-            </div>
-            <div class="row my-5">
-                <div class="col-8">
-                    <div class="video-wrap">
-                        <div class="vid-header">
-                            <div class="title">Getting Started With CopyKart</div>
-                            <a class="btn more-vid" href="#">More Video</a>
-                        </div>
+                            <div class="editor" id="editorjs">
 
-                        <div class="vid-area">
-                            <iframe src="https://www.youtube.com/embed/RpXS1iYz6-M" frameborder="0"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowfullscreen></iframe>
-                        </div>
-                    </div>
-                </div>
+                            </div>
+                            <div class="user-interaction-section">
+                                <nav class="nav linkedin-actions">
+                                  <span class="nav-link" href="#">Like</span>
+                                  <span class="nav-link" href="#">Comment</span>
+                                  <span class="nav-link" href="#">Share</span>
+                                </nav>
+                                
+                            </div>
+                            <div class="user-secondary-action">
+                                <div>
+                                    <div class="main-action">
+                                        <button class="btn forward-btn">
+                                            <span class="flaticon-forward-arrow icons"></span>
+                                        </button>
+                                        <select id="select-lang" name="">
+                                            <option selected>English</option>
+                                        </select>
 
-                <div class="col-4">
-                    <div class="log-wrap">
-                        <div class="log-header">
-                            <a href="#" class="btn btn-block btn-activity">
-                                <span class="flaticon-compass icons"></span>
-                                Activity Log
-                            </a>
-                            <a href="#" class="btn btn-block btn-road-map">
-                                <img class="icon-road-map" src="assets/icons/Copykart icons/Dashboard card/our roadmap icon.svg" alt="road map">
-                                Our Road Map
-                            </a>
-                        </div>
-                        <div class="log-area">
-                            <div class="activity-box">
-                                <div class="time">31 July, 2017</div>
-                                <p>
-                                    Facebook pixel tracking now fires custom events when
-                                    a form is submitted or a button link is clicked. Which you
-                                    can use to build custom audiences on facebook or track
-                                    conversions…
-                                </p>
-                            </div>
-                            <div class="activity-box">
-                                <div class="time">31 July, 2017</div>
-                                <p>
-                                    Facebook pixel tracking now fires custom events when
-                                    a form is submitted or a button link is clicked.
-                                </p>
-                            </div>
-                            <div class="activity-box">
-                                <div class="time">31 July, 2017</div>
-                                <p>
-                                    Facebook pixel tracking now fires custom events when
-                                    a form is submitted or a button link is clicked.
-                                </p>
+                                        <button class="btn forward-btn">
+                                            Publish Copy
+                                        </button>
+                                    </div>
+                                </div>
+                                <div class="icon-action">
+                                    <nav class="nav">
+                                        <a class="actions-social active" href="#">
+                                            <span class="flaticon-shield icons"></span>
+                                        </a>
+                                        <a  class="actions-social love-work" href="#">
+                                            <span class="flaticon-like icons"></span>
+                                        </a>
+                                        <a class="actions-social" href="#">
+                                            <span class="flaticon-delete icons"></span>
+                                        </a>
+                                    </nav>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
+
+
+
 
 
     <!-- jQuery library -->
@@ -414,7 +409,9 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <script src="assets/js/main.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+    <script src="../assets/js/editor-config.js"></script>
 </body>
 
 </html>

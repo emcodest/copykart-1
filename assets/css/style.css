@@ -206,7 +206,7 @@
 
 .workspace-display .workspace-info .title {
     font-size: 0.45rem;
-    margin-bottom: -7px;
+    margin-bottom: -3px;
 }
 
 .workspace-display .workspace-drop-icon::before {
@@ -349,10 +349,18 @@
     margin-bottom: 1.2rem;
 }
 
-.icon-circle .icon-dashboard::before {
-    font-size: 1.3rem;
-    font-weight: 900;
+.icon-circle .icon-dashboard {
+    width: 2.9rem;
+}
 
+.icon-circle .icon-dashboard-font::before {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.icon-road-map {
+    width: 1.2rem;
+    margin-right: 0.5rem;
 }
 
 .dashboard-box .desc {
@@ -387,7 +395,8 @@
     background-color: #f78aab;
 }
 
-.dashboard-box.third .icon-circle .icon-dashboard::before {
+.dashboard-box.third .icon-circle .icon-dashboard::before,
+.dashboard-box.third .icon-circle .icon-dashboard-font::before {
     color: #f78aab;
 }
 
@@ -562,7 +571,7 @@
 
 
 .campaign-image-wrap img {
-    width: 0.9rem;
+    width: 3rem;
 }
 
 .campaign-box .campaign-name {
@@ -1043,9 +1052,9 @@ input:checked+.slider:before {
 }
 
 .btn-arrow.active {
-    color: #fff;
-    background-color: #007bff;
-    border-color: #007bff;
+    color: #fff !important;
+    background-color: #007bff !important;
+    border-color: #007bff !important;
 }
 
 .user-secondary-action {
@@ -1253,4 +1262,27 @@ input:checked+.slider:before {
 
 .google-wrap .create-icn::before {
     color: #eb4132;
+}
+
+.email-wrap .btn-arrow-right {
+    /* padding-left: 22px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 14px; */
+    padding: 10px 18px 10px 22px;
+    font-size: 0.7rem;
+    color: #5383ea;
+}
+
+.email-wrap .btn-arrow-right:not(:first-child) {
+    padding-left: 30px;
+}
+
+.email-wrap .btn-arrow-right:after {
+    width: 27px;
+    height: 27px;
+}
+
+.email-wrap .btn-arrow-right:after {
+    right: -14px;
 }

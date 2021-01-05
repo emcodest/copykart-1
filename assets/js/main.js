@@ -1,6 +1,6 @@
 (function () {
 
-    
+
 
     $('.workspace-display').on('click', function () {
         if ($('.profile-option').hasClass('show')) {
@@ -71,6 +71,10 @@
         });
 
     });
+
+    // $('#email-type').on('focus', function (e) {
+    //     e.preventDefault();
+    // });
 
 
 

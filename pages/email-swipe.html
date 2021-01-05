@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Facebook Ad Copy</title>
+    <title>Email Swipe</title>
     <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
     <script src="https://cdn.jsdelivr.net/npm/@editorjs/header@latest"></script>
     <script src="https://cdn.jsdelivr.net/npm/@editorjs/paragraph@latest"></script>
@@ -263,17 +263,24 @@
         <div class="container">
             <div class="campaign-title">
                 <img src="../assets/icons/Create.svg" alt="" srcset="">
-                LinkedIn Ad Copy
+                Email Swipe
             </div>
 
             <div class="row">
                 <div class="col-6">
-                    <div class="campaign-form-wrap">
+                    <div class="campaign-form-wrap email-wrap">
+                        <div class="d-flex mb-5">
+                            <button class="btn btn-arrow active btn-arrow-right">About you</button>
+                            <button class="btn btn-arrow btn-arrow-right">Product</button>
+                            <button class="btn btn-arrow btn-arrow-right">Why</button>
+                            <button class="btn btn-arrow btn-arrow-right">Freebie</button>
+                        </div>
                         <form action="">
                             <div class="form-group">
-                                <label for="product-name">Company Name</label>
-                                <input type="text" class="form-control campaign-input" name="" id="product-name"
-                                    placeholder="">
+                                <label for="product-name">Email Type</label>
+                                <select disabled id="email-type" class="form-control campaign-input" name="" placeholder="">
+                                    
+                                </select>
                             </div>
                             <div class="form-group">
                                 <label for="audience-input">Audience</label>
@@ -281,15 +288,21 @@
                                     placeholder="Eg. ecom, millennials, internet marketing">
                             </div>
                             <div class="form-group">
-                                <label for="desc-input">Description</label>
+                                <label for="desc-input">Product Description</label>
                                 <textarea class="form-control campaign-input" name="" id="desc-input" cols="30" rows="5"
                                     placeholder="Eg. We sell everything god and nice"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="desc-url">Product Destination URL</label>
+                                <input type="text" class="form-control campaign-input" name="" id="desc-url"
+                                    placeholder="https://artculturebmc.com">
                             </div>
                             <div class="row mt-4 mb-2">
                                 <div class="col-4">
                                     <div class="form-group">
-                                        <input type="text" class="form-control campaign-input" name="" id=""
-                                            placeholder="Add Keywords" value="Brand Keywords">
+                                        <select id="" class="form-control campaign-input select" name="">
+                                            <option selected>Writing Style</option>
+                                        </select>
                                     </div>
                                 </div>
                                 <div class="col-8">
@@ -297,7 +310,7 @@
                                         <div class="col-6">
                                             <div class="form-group">
                                                 <input type="text" class="form-control campaign-input" name="" id=""
-                                                    placeholder="Add Keywords" value="Keywords to avoid">
+                                                    placeholder="Add Keywords" value="Add Keywords">
                                             </div>
                                         </div>
                                     </div>
@@ -329,35 +342,43 @@
                 </div>
                 <div class="col-6">
                     <div class="social-outter">
-                        <div class="social-wrap bg-light-blue">
-                            
+                        <div class="social-wrap bordered">
+                            <div class="floating-check">
+                                <span class="flaticon-check icons"></span>
+                            </div>
 
                             <div class="floating-lock">
                                 <span class="flaticon-lock icons locker"></span>
                             </div>
                             <div class="social-heading">
-                                <img class="social-image" src="../assets/icons/Create.svg" alt="">
+                                <img class="social-image rounded" src="../assets/icons/Create.svg" alt="">
                                 <div class="social-head-main">
                                     <div class="social-title">
                                         ArtCulture BMC
                                     </div>
                                     <div class="social-audience">
-                                        323 Followers <br>
-                                        Promoted
-                                       
+                                        Sponsored
+                                        <span class="flaticon-earth icons audience-icon"></span>
                                     </div>
                                 </div>
                             </div>
                             <div class="editor" id="editorjs">
 
                             </div>
+                            <div class="link-section">
+                                <a href="https://artculturebmc.com/">https://artculturebmc.com/</a>
+                            </div>
                             <div class="user-interaction-section">
-                                <nav class="nav linkedin-actions">
-                                  <span class="nav-link" href="#">Like</span>
-                                  <span class="nav-link" href="#">Comment</span>
-                                  <span class="nav-link" href="#">Share</span>
-                                </nav>
-                                
+                                <div class="interactions-wrap">
+                                    <img class="emoji-icons" src="../assets/icons/Day:Night.svg" alt="">
+                                    <img class="emoji-icons" src="../assets/icons/Day:Night.svg" alt="">
+                                    <span class="interaction-value">411</span>
+                                </div>
+                                <div class="comment-share">
+                                    <div class="comments-value">123 Comments</div>
+                                    <div class="share">30 <span class="flaticon-forward-arrow icons share-icon"></span>
+                                    </div>
+                                </div>
                             </div>
                             <div class="user-secondary-action">
                                 <div>
@@ -380,7 +401,7 @@
                                         <a class="actions-social active" href="#">
                                             <span class="flaticon-shield icons"></span>
                                         </a>
-                                        <a  class="actions-social love-work" href="#">
+                                        <a class="actions-social love-work" href="#">
                                             <span class="flaticon-like icons"></span>
                                         </a>
                                         <a class="actions-social" href="#">
