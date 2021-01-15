@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Campaign</title>
+    <title>Collaboration</title>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -31,42 +31,48 @@
                                 <ul class="nav flex-column">
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/Facebook.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/Facebook.svg"
                                                 alt="facebook icon">
                                             Facebook Ad
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/Google.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/Google.svg"
                                                 alt="facebook icon">
                                             Google Ad
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/Linkedin.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/Linkedin.svg"
                                                 alt="facebook icon">
                                             LinkedIn Ad
                                         </a>
                                     </li>
                                     <li class="nav-item py-2">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/see more.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/see more.svg"
                                                 alt="facebook icon">
                                             See All Social Ad
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/wordpress.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/wordpress.svg"
                                                 alt="facebook icon">
                                             Blog Post
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/medium.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/medium.svg"
                                                 alt="facebook icon">
                                             Medium
                                         </a>
@@ -149,7 +155,7 @@
                         </div>
                     </div>
                     <ul class="nav align-items-center secondary-actions">
-                         
+
                         <li class="nav-item">
                             <a class="nav-link" href="#">
                                 <img class="right-icons-sm" src="../assets/icons/Help.svg" alt="help">
@@ -251,162 +257,133 @@
 
         <div class="container">
             <h5 class="main-title">
-                Select any to get started
+                <nav class="nav">
+                    <a class="nav-link" href="../index.html">Dashboard ></a></a>
+                    <a class="nav-link" href="add-team.html">Colaboration</a>
+                </nav>
             </h5>
-            <div class="row">
-                <div class="col-3">
-                    <div class="campaign-box facebook" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/facebook.svg" alt="">
-                        </div>
 
-                        <div class="campaign-name">
-                            Facebook Ad Copy
+            <!-- Nav tabs -->
+            <ul class="nav nav-tabs add-team-tab">
+                <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#home">Add Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#menu1">Add Client</a>
+                </li>
+
+            </ul>
+
+            <!-- Tab panes -->
+            <div class="tab-content">
+                <div class="tab-pane container active" id="home">
+
+                    <div class="d-flex">
+                        <div class="add-team-left">
+                            <div class="campaign-box create-box add-team-box open-slide-in">
+                                <span class="flaticon-add icons create-icn"></span>
+                            </div>
+
+                            <div class="added-team-wrap">
+                                <div class="user-info">
+                                    <div class="user-image">
+                                        <img class="user-icon" src="../assets/icons/user-white.svg" alt="">
+                                    </div>
+                                    <div class="username-wrap">
+                                        <div class="name">
+                                            Ejem Austin
+                                        </div>
+                                        <div class="desc">
+                                            jemzaustin@gmail.com
+                                        </div>
+                                    </div>
+                                    <label class="switch-sm mb-0">
+                                        <input type="checkbox">
+                                        <span class="slider round"></span>
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <div class="team-empty">
+                            <span class="flaticon-information-button icons"></span>
+                            <div>
+                                Lorem Ipsum is simply a dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make
+                            </div>
+                        </div> -->
+                        <div class="shared-campaigns-wrap">
+
+                            <h5 class="title">Shared Copy</h5>
+                            <div class="row">
+                                <div class="col-4">
+                                    <div class="campaign-box google">
+                                        <div class="d-flex align-items-center mb-3">
+                                            <div class="campaign-image-wrap mb-0">
+                                                <img src="../assets/icons/Copykart icons/create campaign icons/facebook.svg"
+                                                    alt="">
+                                            </div>
+                                            <div class="campaign-source">
+                                                Google Ad Copy
+                                            </div>
+                                        </div>
+
+                                        <div class="campaign-name">
+                                            Spotify Ad Copy
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="campaign-box google" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/google.svg" alt="">
-                        </div>
+                <div class="tab-pane container fade" id="menu1">...</div>
 
-                        <div class="campaign-name">
-                            Google Ad Copy
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="campaign-box linkedin" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/linkedin.svg" alt="">
-                        </div>
-
-                        <div class="campaign-name">
-                            LinkedIn Ad Copy
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="campaign-box instagram" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/instagram.svg" alt="">
-                        </div>
-
-                        <div class="campaign-name">
-                            Instagram Ad Copy
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="campaign-box tiktok" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/tiktok.svg" alt="">
-                        </div>
-
-                        <div class="campaign-name">
-                            TikTok Ad Copy
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="campaign-box tagline" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/tagline.svg" alt="">
-                        </div>
-
-                        <div class="campaign-name">
-                            Tagline Copy
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="campaign-box seo" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/seo meta tag.svg" alt="">
-                        </div>
-
-                        <div class="campaign-name">
-                            Seo Meta Tag
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="campaign-box product-desc" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/product description.svg" alt="">
-                        </div>
-
-                        <div class="campaign-name">
-                            Product Description
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="campaign-box landing-page" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/landing page.svg" alt="">
-                        </div>
-
-                        <div class="campaign-name">
-                            Landing Page
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="campaign-box email-copy" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/email copy.svg" alt="">
-                        </div>
-
-                        <div class="campaign-name">
-                            Email Copy
-                        </div>
-                    </div>
-                </div>
             </div>
+
+
+
+
+
         </div>
     </div>
 
-    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-create">
-        Open modal
-    </button> -->
-    <!-- The Modal -->
-    <div class="modal fade" id="modal-create" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <!-- <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-                    
-                </div> -->
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                    <div class="error"></div>
-                    <form action="" method="post" id="new-campaign">
-                        <h4 class="modal-title">Facebood Ad Copy</h4>
-                        <div class="form-group my-3">
-                            <input type="text" class="form-control form-campaign" name="" id="" placeholder="Name Campaign To Get Started">
-                        </div>
-                        <div class="btn-wrap">
-                            <button class="btn btn-cancel">
-                                Cancel
-                            </button>
-                            <button class="btn btn-go">
-                                Get Started
-                            </button>
-                        </div>
-                    </form>
-                </div>
-                <!-- <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div> -->
-            </div>
+    <div class="slide-in-wrap">
+        <h5 class="title">INVITE TEAM MEMBER</h5>
+        <button class="btn btn-generate-link">
+            Generate Invite Link
+        </button>
+
+        <div class="link-copier-wrap">
+            <input value="ndex?csrf_protected=c7141d0edafcef682be9e17a77037307&quickdate="
+                class="form-control no-shadow" type="text">
+            <button class="btn btn-copy no-shadow">
+                <span class="flaticon-copy icons"></span>
+            </button>
+        </div>
+
+        <div class="form-group">
+            <label for="">TEAM MEMBER EMAIL</label>
+            <input id="team-email" class="form-control form-slide-in" type="text" name="" placeholder="Add Best Email">
+        </div>
+
+        <div class="form-group">
+            <select id="team-role" class="form-control form-slide-in select" name="">
+                <option value="admin" selected>Administrator</option>
+            </select>
+        </div>
+
+        <div class="d-flex">
+            <button class="btn btn-primary btn-send">
+                Send
+            </button>
+
+            <button class="btn btn-close">Close</button>
         </div>
     </div>
+
+
 
 
 

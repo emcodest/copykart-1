@@ -4,7 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Create Campaign</title>
+    <title>Email Swipe</title>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/editorjs@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/header@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/paragraph@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/simple-image@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/image@2.3.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/embed@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@editorjs/delimiter@latest"></script>
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/css/style.css">
@@ -31,42 +38,42 @@
                                 <ul class="nav flex-column">
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/Facebook.svg"
+                                            <img class="create-icons" src="../assets/icons/Create.svg"
                                                 alt="facebook icon">
                                             Facebook Ad
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/Google.svg"
+                                            <img class="create-icons" src="../assets/icons/Create.svg"
                                                 alt="facebook icon">
                                             Google Ad
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/Linkedin.svg"
+                                            <img class="create-icons" src="../assets/icons/Create.svg"
                                                 alt="facebook icon">
                                             LinkedIn Ad
                                         </a>
                                     </li>
                                     <li class="nav-item py-2">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/see more.svg"
+                                            <img class="create-icons" src="../assets/icons/Create.svg"
                                                 alt="facebook icon">
                                             See All Social Ad
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/wordpress.svg"
+                                            <img class="create-icons" src="../assets/icons/Create.svg"
                                                 alt="facebook icon">
                                             Blog Post
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/medium.svg"
+                                            <img class="create-icons" src="../assets/icons/Create.svg"
                                                 alt="facebook icon">
                                             Medium
                                         </a>
@@ -149,7 +156,7 @@
                         </div>
                     </div>
                     <ul class="nav align-items-center secondary-actions">
-                         
+
                         <li class="nav-item">
                             <a class="nav-link" href="#">
                                 <img class="right-icons-sm" src="../assets/icons/Help.svg" alt="help">
@@ -250,163 +257,129 @@
         </nav>
 
         <div class="container">
-            <h5 class="main-title">
-                Select any to get started
-            </h5>
+            <div class="campaign-title">
+                <img src="../assets/icons/Create.svg" alt="" srcset="">
+                Email Swipe
+            </div>
+
             <div class="row">
-                <div class="col-3">
-                    <div class="campaign-box facebook" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/facebook.svg" alt="">
+                <div class="col-6">
+                    <div class="campaign-form-wrap email-wrap">
+                        <div class="d-flex mb-5">
+                            <button class="btn btn-arrow active btn-arrow-right">About you</button>
+                            <button class="btn btn-arrow active btn-arrow-right">Product</button>
+                            <button class="btn btn-arrow active btn-arrow-right">Why</button>
+                            <button class="btn btn-arrow active btn-arrow-right">Freebie</button>
                         </div>
 
-                        <div class="campaign-name">
-                            Facebook Ad Copy
+                        <div class="email-swipe-result-notif-wrap">
+                            <div class="d-flex flex-column align-items-center">
+                                <img src="../assets/icons/check.svg" alt="" class="checked-done">
+                                <div class="desc">
+                                    <span
+                                        class="flaticon-information-button icons info-sm"></span>
+                                    Your email series has been generated.
+                                </div>
+                            </div>
                         </div>
+
+                        <div class="d-flex justify-content-end align-items-center mt-5">
+                            <div class="btn-wrap ml-auto">
+
+                                <button class="btn btn-go btn-email-action">
+                                    <span class="flaticon-shuffle icons"></span>
+                                    Rewrite
+                                </button>
+                                <button class="btn btn-go btn-email-action">
+                                    <span class="flaticon-diskette icons"></span>
+                                    Save
+                                </button>
+                                <button class="btn btn-email-exit">
+                                    Exit
+                                </button>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <div class="col-3">
-                    <div class="campaign-box google" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/google.svg" alt="">
+                <div class="col-6">
+                    <div class="social-outter">
+                        <div class="email-swipe-header">
+                            <div class="email-sel-btns">
+                                <button class="btn btn-email-sel">Email 1</button>
+                                <button class="btn btn-email-sel">Email 2</button>
+                                <button class="btn btn-email-sel">Email 3</button>
+                                <button class="btn btn-email-sel">Email 4</button>
+                            </div>
+                            <div class="prev-sel">
+                                <span class="flaticon-desktop-monitor icons prev-icon"></span>
+                                <select name="" id="select-email-view">
+                                    <option selected value="desktop">Desktop view</option>
+                                    <option value="tablet">Tablet view</option>
+                                    <option value="mobile">Mobile view</option>
+                                </select>
+                            </div>
                         </div>
+                        <div class="email-subject-wrap">
+                            <span>Subject:</span>
+                            <input class="email-subject-input" type="text">
+                            <div class="icon-action">
+                                <nav class="nav align-items-center">
+                                    <a class="actions-social active" href="#">
+                                        <span class="flaticon-shield icons"></span>
+                                    </a>
+                                    <a class="actions-social love-work" href="#">
+                                        <span class="flaticon-like icons"></span>
+                                    </a>
+                                    <a class="actions-social" href="#">
+                                        <span class="flaticon-delete icons"></span>
+                                    </a>
+                                    <button class="btn no-shadow">
+                                        <span class="flaticon-down-arrow-2 icons dropdown-black"></span>
+                                    </button>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="social-wrap">
+                            <div class="floating-lock">
+                                <span class="flaticon-lock icons locker"></span>
+                            </div>
 
-                        <div class="campaign-name">
-                            Google Ad Copy
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="campaign-box linkedin" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/linkedin.svg" alt="">
-                        </div>
+                            <div class="editor" id="editorjs">
 
-                        <div class="campaign-name">
-                            LinkedIn Ad Copy
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="campaign-box instagram" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/instagram.svg" alt="">
-                        </div>
+                            </div>
 
-                        <div class="campaign-name">
-                            Instagram Ad Copy
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="campaign-box tiktok" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/tiktok.svg" alt="">
-                        </div>
 
-                        <div class="campaign-name">
-                            TikTok Ad Copy
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="campaign-box tagline" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/tagline.svg" alt="">
-                        </div>
+                            <div class="user-secondary-action">
+                                <div>
+                                    <div class="main-action">
+                                        <button class="btn forward-btn">
+                                            <span class="flaticon-down-arrow icons"></span>
+                                        </button>
+                                        <button class="btn forward-btn">
+                                            <span class="flaticon-forward-arrow icons"></span>
+                                        </button>
+                                        <select id="select-lang" name="">
+                                            <option selected>English</option>
+                                        </select>
 
-                        <div class="campaign-name">
-                            Tagline Copy
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="campaign-box seo" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/seo meta tag.svg" alt="">
-                        </div>
+                                        <button class="btn forward-btn">
+                                            Publish to Autoresponder
+                                        </button>
 
-                        <div class="campaign-name">
-                            Seo Meta Tag
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="campaign-box product-desc" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/product description.svg" alt="">
-                        </div>
-
-                        <div class="campaign-name">
-                            Product Description
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="campaign-box landing-page" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/landing page.svg" alt="">
-                        </div>
-
-                        <div class="campaign-name">
-                            Landing Page
-                        </div>
-                    </div>
-                </div>
-                <div class="col-3">
-                    <div class="campaign-box email-copy" data-toggle="modal" data-target="#modal-create" >
-                        <div class="campaign-image-wrap">
-                            <img src="../assets/icons/Copykart icons/create campaign icons/email copy.svg" alt="">
-                        </div>
-
-                        <div class="campaign-name">
-                            Email Copy
+                                    </div>
+                                </div>
+                               
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
         </div>
     </div>
 
-    <!-- <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-create">
-        Open modal
-    </button> -->
-    <!-- The Modal -->
-    <div class="modal fade" id="modal-create" tabindex="-1" role="dialog"
-        aria-labelledby="exampleModalCenterTitle">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <div class="modal-content">
-                <!-- <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
-                    
-                </div> -->
-                <div class="modal-body">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">×</span>
-                    </button>
-                    <div class="error"></div>
-                    <form action="" method="post" id="new-campaign">
-                        <h4 class="modal-title">Facebood Ad Copy</h4>
-                        <div class="form-group my-3">
-                            <input type="text" class="form-control form-campaign" name="" id="" placeholder="Name Campaign To Get Started">
-                        </div>
-                        <div class="btn-wrap">
-                            <button class="btn btn-cancel">
-                                Cancel
-                            </button>
-                            <button class="btn btn-go">
-                                Get Started
-                            </button>
-                        </div>
-                    </form>
-                </div>
-                <!-- <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div> -->
-            </div>
-        </div>
-    </div>
+
 
 
 
@@ -420,6 +393,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
     <script src="../assets/js/main.js"></script>
+
+    <script src="../assets/js/editor-config.js"></script>
 </body>
 
 </html>

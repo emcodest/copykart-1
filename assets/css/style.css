@@ -1,5 +1,9 @@
 @import url('font/flaticon.css');
 
+html {
+    zoom: 90%;
+}
+
 .icons::before {
     margin: 0;
 }
@@ -249,7 +253,7 @@
 }
 
 .no-shadow:focus {
-    box-shadow: none;
+    box-shadow: none !important;
 }
 
 .form-search-workspace .btn-search {
@@ -955,6 +959,7 @@ input:checked+.slider:before {
 
 .social-wrap .editor {
     margin-bottom: 1rem;
+    word-break: break-all;
 }
 
 
@@ -1285,4 +1290,759 @@ input:checked+.slider:before {
 
 .email-wrap .btn-arrow-right:after {
     right: -14px;
+}
+
+.modal-backdrop {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+
+
+#email-type:focus {
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+#email-type option {
+    display: none;
+}
+
+.div-input {
+    position: relative;
+    line-height: 0.4;
+    cursor: pointer;
+    padding: 1.7rem 1.6rem;
+}
+
+.div-input:hover {
+    box-shadow: 0 0 0 0.2rem #007bff40;
+}
+
+.div-input .icon-drop::before {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+}
+
+.email-types-wrap {
+    position: absolute;
+    background-color: #ecf1fa;
+    width: 100%;
+    top: 70px;
+    left: 0;
+    padding: 1.5rem 1.3rem;
+    border-radius: 1rem;
+    height: 335px;
+    overflow-y: auto;
+    box-shadow: 1px 0 7px #bebebe;
+    display: none;
+}
+
+.email-type-item .email-type-icon {
+    margin-right: 1.3rem;
+    width: 3rem;
+}
+
+.email-types-wrap .email-type-item {
+    background-color: #ffffff;
+    padding: 1rem 1.3rem;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+
+.email-type-item:hover {
+    box-shadow: 1px 0 7px #bebebe;
+    transform: scale(1.05);
+}
+
+.email-type-item .email-type-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.email-type-item .email-type-content .title {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.email-type-item .email-type-content .desc {
+    font-size: 0.7rem;
+
+    font-weight: 600;
+    line-height: 12px;
+}
+
+.email-divider {
+    border-top: 2px solid #8d8e8e;
+    margin: 3rem 0;
+}
+
+.form-small {
+    width: 45%;
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.form-small-sm {
+    width: 25%;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+.text-bold {
+    font-weight: 700;
+    font-size: 1.2rem !important;
+}
+
+.bg-main {
+    background-color: var(--assent-color) !important;
+    color: #ffffff !important;
+}
+
+.email-swipe-result-notif-wrap {
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email-swipe-result-notif-wrap .desc {
+    font-size: 0.7rem;
+    margin-top: 1.5rem;
+}
+
+.email-swipe-result-notif-wrap .info-sm::before {
+    font-size: 0.7rem;
+    margin-right: .3rem;
+}
+
+.email-swipe-result-notif-wrap .checked-done {
+    width: 4rem;
+}
+
+.btn-email-action {
+    border-radius: 0.3rem !important;
+    margin-right: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.btn-email-action span::before {
+    font-size: 0.9rem;
+    margin-right: 0.3rem;
+}
+
+.btn-email-exit {
+    background-color: #d0def8;
+    color: #477de4;
+    font-size: 0.8rem;
+    padding: 0.5rem 0.2rem;
+}
+
+.email-swipe-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+
+.btn-email-sel {
+    background-color: #f4f7fa;
+    color: #000000;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+}
+
+.prev-sel {
+    display: flex;
+    align-items: center;
+    background-color: #f4f7fa;
+    padding: 0.3rem 0.7rem;
+    border-radius: 0.3rem;
+}
+
+.prev-sel span::before {
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+}
+
+.prev-sel select {
+    background-color: transparent;
+    border: none;
+    font-size: 0.8rem;
+}
+
+.email-subject-wrap {
+    display: flex;
+    background-color: #f4f7fa;
+    align-items: center;
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    margin-bottom: 3rem;
+}
+
+.email-subject-wrap .email-subject-input {
+    background-color: transparent;
+    border: none;
+    flex-grow: 1;
+    margin-left: 0.2rem;
+}
+
+.dropdown-black::before {
+    color: #000000;
+    font-size: 0.7rem;
+}
+
+.email-subject-wrap~.social-wrap {
+    background-color: #f4f7fa;
+}
+
+.main-title .nav a {
+    padding: 0.3rem 0.2rem;
+    font-size: 0.9rem;
+}
+
+.add-team-tab {
+    padding-bottom: 0.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.add-team-tab .nav-link {
+    border: none;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+}
+
+.add-team-tab .nav-link.active {
+    color: var(--assent-color);
+    background-color: #f1f7fc;
+}
+
+.add-team-left .create-box {
+    background-color: #d1e3f6;
+    min-width: 175px;
+}
+
+.add-team-left .create-box .create-icn::before {
+    color: var(--assent-color);
+}
+
+.team-empty {
+    display: flex;
+    align-items: center;
+    font-size: 0.7rem;
+    color: #e3e3e3;
+    padding: 0 5rem;
+}
+
+.team-empty span::before {
+    font-size: 0.8rem;
+    margin-right: 1rem;
+}
+
+.slide-in-wrap {
+    position: fixed;
+    right: 0;
+    top: 0;
+    box-shadow: -1px 1px 11px #bebebe;
+    height: 100vh;
+    background-color: #ffffff;
+    width: 40vw;
+    animation: slide-in 0.5s 1 linear;
+    display: none;
+    padding: 4rem 2.5rem;
+}
+
+.slide-in-wrap .title {
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    margin-bottom: 1.3rem;
+}
+
+.btn-generate-link {
+    background-color: #f1f7fc;
+    font-size: 0.8rem;
+    padding: 0.6rem 1rem;
+    margin-bottom: 1.3rem;
+}
+
+.link-copier-wrap {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+    margin-bottom: 1.5rem;
+}
+
+.link-copier-wrap input {
+    border: none;
+    background-color: transparent;
+    font-size: 0.9rem;
+
+}
+
+.link-copier-wrap button {
+    background-color: transparent;
+}
+
+.link-copier-wrap button span::before {
+    font-size: 1.3rem;
+}
+
+.slide-in-wrap label {
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    margin-bottom: 1.5rem;
+    color: #959595;
+
+}
+
+.slide-in-wrap .form-slide-in {
+    background-color: #ecf1fa;
+    font-size: 0.9rem;
+    /* padding: 1.2rem 0.7rem; */
+    height: 2.7rem;
+    color: #9ea0a5;
+}
+
+.slide-in-wrap .form-group {
+    margin-bottom: 1.5rem;
+    padding-right: 2rem;
+}
+
+.btn-send {
+    padding: 0.7rem 2rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+}
+
+.btn-close {
+    color: var(--assent-color);
+}
+
+.shared-campaigns-wrap {
+    flex-grow: 1;
+    padding: 1rem 4rem;
+    border-left: 1px solid #000;
+    margin-left: 3rem;
+    height: calc(100vh - 250px);
+}
+
+.shared-campaigns-wrap .title {
+    color: var(--assent-color);
+    font-size: 0.9rem;
+    margin-bottom: 1.3rem;
+}
+
+.shared-campaigns-wrap .campaign-box .campaign-source {
+    font-size: 0.8rem;
+}
+
+.shared-campaigns-wrap .campaign-box .campaign-image-wrap {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.shared-campaigns-wrap .campaign-image-wrap img {
+    width: 2.5rem;
+}
+
+.shared-campaigns-wrap .campaign-box .campaign-name {
+    font-size: 1.1rem;
+}
+
+.drop-user-icon::before {
+    font-size: 0.6rem;
+    margin-left: 0.5rem;
+}
+
+.added-team-wrap {
+    background-color: var(--assent-color);
+    display: flex;
+    padding: 1.5rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.added-team-wrap .user-info .user-image {
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.added-team-wrap .username-wrap {
+    margin-right: 0.8rem;
+}
+
+.added-team-wrap .username-wrap .name,
+.added-team-wrap .username-wrap .desc {
+    color: #ffffff;
+}
+
+
+.added-team-wrap .username-wrap .name {
+    font-size: 0.7rem;
+    font-weight: 600;
+    margin-bottom: -1px;
+}
+
+.added-team-wrap .username-wrap .desc {
+    font-size: 0.5rem;
+}
+
+.added-team-wrap .user-info .user-image .user-icon {
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+}
+
+
+.switch-sm {
+    position: relative;
+    display: inline-block;
+    width: 27px;
+    height: 14px;
+}
+
+/* Hide default HTML checkbox */
+.switch-sm input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.switch-sm .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+
+.switch-sm .slider:before {
+    position: absolute;
+    content: "";
+    height: 10px;
+    width: 10px;
+    left: 2px;
+    bottom: 2px;
+    background-color: var(--assent-color);
+    -webkit-transition: .4s;
+    transition: .4s;
+    z-index: 2;
+}
+
+.switch-sm input:checked+.slider {
+    background-color: #ffffff;
+}
+
+.switch-sm input:focus+.slider {
+    box-shadow: 0 0 1px var(--assent-color);
+}
+
+.switch-sm input:checked+.slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+}
+
+/* Rounded sliders */
+.switch-sm .slider.round {
+    border-radius: 34px;
+}
+
+.switch-sm .slider.round:before {
+    border-radius: 40%;
+}
+
+.bg-gray {
+    background-color: #faf9fb;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.workspace-empty,
+.workspace-not-empty {
+    margin-top: 3rem;
+}
+
+.workspace-info-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    background-color: #5e87fe;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 1.3rem;
+    margin-bottom: 3rem;
+}
+
+.info-workspace-icon::before {
+    font-size: 1.4rem;
+    color: #ffffff;
+    margin-right: 1rem;
+}
+
+.create-btn-wrap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.create-btn-wrap .btn-create-workspace {
+    background-color: #d7d8dc;
+    border-radius: 50%;
+    border: 1px solid #4b515c;
+    padding: 0.675rem 1.05rem;
+    margin-bottom: 1rem;
+}
+
+.create-btn-wrap .btn-create-workspace span::before {
+    font-size: 1.4rem;
+    color: #4b515c;
+}
+
+.create-btn-wrap .title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.create-btn-wrap .desc {
+    font-size: 0.6rem;
+    color: #d5d5d5;
+    margin-top: -7px;
+}
+
+.upload-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.upload-wrap .upload-btn {
+    display: flex;
+    font-size: 0.8rem;
+    align-items: center;
+    background-color: #e2e2e2;
+    padding: 0.5rem 2.5rem 0.5rem 0.5rem;
+    border-radius: 1.5rem;
+    margin-right: 1rem;
+    position: relative;
+    cursor: pointer;
+}
+
+.upload-wrap .btn-cancel-upload {
+    background-color: #fcc9c9;
+    border-radius: 50%;
+    padding: 0.1rem 0.6rem;
+}
+
+.btn-cancel-upload .cancel-icon {
+    color: red;
+    font-size: 0.8rem;
+}
+
+.upload-btn .icon-wrap {
+    background-color: #bcbdbe;
+    width: 1.6rem;
+    height: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.upload-btn .icon-wrap .upload-icon::before {
+    font-size: 0.7rem;
+    font-weight: 800;
+}
+
+.upload-btn input {
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+
+
+.main-check {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 21px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-right: 1rem;
+}
+
+.main-check input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.main-check input:checked~.checkmark {
+    background-color: #b0b5bc;
+}
+
+.main-check .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 23px;
+    width: 23px;
+    background-color: #eee;
+    border-radius: 0.4rem;
+}
+
+.main-check input:checked~.checkmark::after {
+    display: block;
+}
+
+.main-check .checkmark::after {
+    left: 6px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 0.2rem;
+    background-color: #262a2f;
+}
+
+.main-check .checkmark::after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.workspace-not-empty-inner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 100px);
+}
+
+.workspace-not-empty-inner .title {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.added-workspaces {
+    display: flex;
+    flex-direction: column;
+}
+
+.added-workspaces .workspace-item {
+    display: flex;
+    background-color: #ecf1fa;
+    font-size: 0.9rem;
+    align-items: center;
+    width: 456px;
+    padding: 0.7rem 1rem 0.7rem 0.6rem;
+    border-radius: 0.7rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.default-tag {
+    position: absolute;
+    color: #89aaf0;
+    background-color: #dfecfd;
+    top: 0;
+    left: 13%;
+    font-size: 0.5rem;
+    padding: 0rem 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+
+.workspace-item .workspace-title {
+    margin-right: 1rem;
+}
+
+.team-icons-wrap {
+    display: flex;
+    align-items: center;
+}
+
+.team-icons-wrap span {
+    margin-right: 0.5rem;
+}
+
+.team-icons {
+    display: flex;
+    align-items: center;
+}
+
+.team-icons img {
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    margin-left: -3px;
+}
+
+.workspace-actions {
+    display: flex;
+    margin-left: auto;
+}
+
+.workspace-actions .btn-workspace-action {
+    background-color: transparent;
+    padding: 0;
+}
+
+.btn-workspace-action span::before {
+    font-size: 0.7rem;
+    margin-right: 0.4rem;
+}
+
+.btn-create-workspace-simple {
+    color: #5f87ea;
+    background-color: #ecf1fa;
+    font-size: 0.7rem;
+    padding: 0.5rem 0.9rem;
+    margin-top: 1.5rem;
+}
+
+
+
+
+
+@keyframes slide-in {
+    from {
+        right: -690px;
+    }
+
+    to {
+        right: 0;
+    }
 }

@@ -156,11 +156,7 @@
                         </div>
                     </div>
                     <ul class="nav align-items-center secondary-actions">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">
-                                <img class="right-icons" src="../assets/icons/Day:Night.svg" alt="day/night">
-                            </a>
-                        </li>
+
                         <li class="nav-item">
                             <a class="nav-link" href="#">
                                 <img class="right-icons-sm" src="../assets/icons/Help.svg" alt="help">
@@ -271,63 +267,51 @@
                     <div class="campaign-form-wrap email-wrap">
                         <div class="d-flex mb-5">
                             <button class="btn btn-arrow active btn-arrow-right">About you</button>
-                            <button class="btn btn-arrow btn-arrow-right">Product</button>
-                            <button class="btn btn-arrow btn-arrow-right">Why</button>
-                            <button class="btn btn-arrow btn-arrow-right">Freebie</button>
+                            <button class="btn btn-arrow active btn-arrow-right">Product</button>
+                            <button class="btn btn-arrow active btn-arrow-right">Why</button>
+                            <button class="btn btn-arrow active btn-arrow-right">Freebie</button>
                         </div>
                         <form action="">
+
                             <div class="form-group">
-                                <label for="product-name">Email Type</label>
-                                <select disabled id="email-type" class="form-control campaign-input" name="" placeholder="">
-                                    
-                                </select>
-                            </div>
-                            <div class="form-group">
-                                <label for="audience-input">Audience</label>
-                                <input type="text" class="form-control campaign-input" name="" id="audience-input"
-                                    placeholder="Eg. ecom, millennials, internet marketing">
-                            </div>
-                            <div class="form-group">
-                                <label for="desc-input">Product Description</label>
-                                <textarea class="form-control campaign-input" name="" id="desc-input" cols="30" rows="5"
-                                    placeholder="Eg. We sell everything god and nice"></textarea>
-                            </div>
-                            <div class="form-group">
-                                <label for="desc-url">Product Destination URL</label>
-                                <input type="text" class="form-control campaign-input" name="" id="desc-url"
-                                    placeholder="https://artculturebmc.com">
-                            </div>
-                            <div class="row mt-4 mb-2">
-                                <div class="col-4">
-                                    <div class="form-group">
-                                        <select id="" class="form-control campaign-input select" name="">
-                                            <option selected>Writing Style</option>
-                                        </select>
-                                    </div>
+                                <label for="audience-input">Freebie (What is the name of the first freebie you are
+                                    giving to your subscribers?)</label>
+                                <div class="d-flex">
+                                    <input readonly type="text" class="form-control campaign-input form-small-sm"
+                                        name="" placeholder="Features" value="Freebie 1   +">
                                 </div>
-                                <div class="col-8">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control campaign-input" name="" id=""
-                                                    placeholder="Add Keywords" value="Add Keywords">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+
                             </div>
-                            <div class="d-flex align-items-center">
-                                <span class="check-label">Quality Score</span>
-                                <label class="switch mb-0">
-                                    <span class="desc-on">On</span>
-                                    <span class="desc-off">Off</span>
-                                    <input type="checkbox">
-                                    <span class="slider round"></span>
-                                </label>
+                            <div class="form-group">
+                                <label for="desc-input">Name Freebie</label>
+                                <input type="text" class="form-control campaign-input" name=""
+                                    placeholder="Exclusive Accèss to my next software">
                             </div>
 
+                            <div class="form-group">
+                                <label for="desc-input">How can you classify this freebie?</label>
+                                <input type="text" class="form-control campaign-input" name=""
+                                    placeholder="Software, Ebook, Membership">
+                            </div>
+
+
+                            <div class="form-group">
+                                <label for="desc-url">With this freebie, you will</label>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <input readonly type="text" class="form-control campaign-input text-center text-bold"
+                                            name="" value="+">
+                                    </div>
+                                    <div class="col-10">
+                                        <input type="text" class="form-control campaign-input" name=""
+                                            placeholder="Software, Ebook, Membership">
+                                    </div>
+                                </div>
+
+                            </div>
+
+
                             <div class="d-flex justify-content-end align-items-center mt-5">
-                                <div class="campaign-info">Your ads are saved by default unless you delete them</div>
                                 <div class="btn-wrap ml-auto">
                                     <button class="btn btn-cancel">
                                         Cancel

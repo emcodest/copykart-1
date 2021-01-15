@@ -72,9 +72,48 @@
 
     });
 
-    // $('#email-type').on('focus', function (e) {
-    //     e.preventDefault();
-    // });
+    $('#email-type-select').on('click', function (e) {
+        // $(this).val('help')
+        // alert($(this).val());
+        $('.email-types-wrap').toggleClass('show');
+    });
+
+    $('.email-type-item').each(function () {
+        $(this).on('click', function () {
+            var value;
+            value = $(this).children('.email-type-content').children('.title').text();
+            $('#email-type-select .email-type-display').text(value);
+            $('#email-type').val(value);
+        });
+    });
+
+    $('#select-email-view').on('change', function () {
+        var value = $(this).val();
+        switch (value) {
+            case 'tablet':
+                $('.prev-icon').removeClass('flaticon-desktop-monitor');
+                $('.prev-icon').removeClass('flaticon-smartphone');
+                $('.prev-icon').addClass('flaticon-tablet');
+                break;
+            case 'mobile':
+                $('.prev-icon').removeClass('');
+                $('.prev-icon').removeClass('flaticon-tablet');
+                $('.prev-icon').addClass('flaticon-smartphone');
+                break;
+            default:
+                $('.prev-icon').removeClass('flaticon-smartphone');
+                $('.prev-icon').removeClass('flaticon-tablet');
+                $('.prev-icon').addClass('flaticon-desktop-monitor');
+        }
+    });
+
+    $('.open-slide-in').on('click', function () {
+        $('.slide-in-wrap').toggleClass('show');
+    });
+
+    $('.btn-close').on('click', function () {
+        $('.slide-in-wrap').removeClass('show');
+    });
 
 
 
