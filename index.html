@@ -168,6 +168,7 @@
                         <li class="nav-item">
                             <span class="nav-link profile-btn" href="#">
                                 <img class="right-icons-sm" src="assets/icons/profile.svg" alt="profile">
+                                <span class="flaticon-down-arrow-2 icons drop-user-icon"></span>
 
                                 <div class="profile-option">
                                     <div class="top-section">
@@ -255,9 +256,27 @@
         </nav>
 
         <div class="container">
-            <h5 class="main-title">
-                Hello Austin, What would you love to copy today?
-            </h5>
+            <div class="d-flex align-items-center justify-content-between">
+                <h5 class="title-text">
+                    Hello Austin, Welcome back
+                </h5>
+                <div class="date-wrap">
+                    <span>Today: </span>
+                    <div class="date-today">
+                        <script>
+                            const timeElapsed = Date.now();
+                            const today = new Date(timeElapsed);
+                            // console.log(today.toLocaleDateString());
+                            document.write(today.toLocaleDateString());
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="analyse-wrap">
+                <input autofocus class="form-control analyse-form no-shadow" type="text"
+                    placeholder="Enter up to 20 words (minimum 4) to analyse anything">
+                <button class="btn btn-analyse">Analyze Now</button>
+            </div>
             <div class="row">
                 <div class="col-3">
                     <div class="dashboard-box first">
@@ -277,7 +296,7 @@
                     <div class="dashboard-box second">
                         <div class="icon-circle">
                             <img src="assets/icons/Copykart icons/Dashboard card/all created copy.svg"
-                            class="icon-dashboard">
+                                class="icon-dashboard">
                         </div>
                         <h1 class="desc">
                             All <br>
@@ -291,7 +310,7 @@
                 <div class="col-3">
                     <div class="dashboard-box third">
                         <div class="icon-circle">
-                           <span class="flaticon-like icons icon-dashboard-font"></span>
+                            <span class="flaticon-like icons icon-dashboard-font"></span>
                         </div>
                         <h1 class="desc">
                             My <br>
@@ -308,7 +327,7 @@
 
                             <div class="icon-circle">
                                 <img src="assets/icons/Copykart icons/Dashboard card/account overview.svg"
-                                class="icon-dashboard">
+                                    class="icon-dashboard">
                             </div>
                             <div class="account-title">
                                 Account <br>
@@ -341,7 +360,7 @@
                 </div>
             </div>
             <div class="row my-5">
-                <div class="col-8">
+                <div class="col-7">
                     <div class="video-wrap">
                         <div class="vid-header">
                             <div class="title">Getting Started With CopyKart</div>
@@ -356,43 +375,65 @@
                     </div>
                 </div>
 
-                <div class="col-4">
+
+                <div class="col-5">
                     <div class="log-wrap">
                         <div class="log-header">
-                            <a href="#" class="btn btn-block btn-activity">
-                                <span class="flaticon-compass icons"></span>
-                                Activity Log
+                            <a class="btn btn-block btn-activity active" data-toggle="tab" href="#home">
+                                <span class="flaticon-megaphone icons"></span>
+                                Quick campaign manager
                             </a>
-                            <a href="#" class="btn btn-block btn-road-map">
-                                <img class="icon-road-map" src="assets/icons/Copykart icons/Dashboard card/our roadmap icon.svg" alt="road map">
-                                Our Road Map
+                            <a class="btn btn-block btn-road-map" data-toggle="tab" href="#menu1">
+                                <span class="flaticon-insert-picture-icon icons"></span>
+                                Quick design manager
                             </a>
                         </div>
-                        <div class="log-area">
-                            <div class="activity-box">
-                                <div class="time">31 July, 2017</div>
-                                <p>
-                                    Facebook pixel tracking now fires custom events when
-                                    a form is submitted or a button link is clicked. Which you
-                                    can use to build custom audiences on facebook or track
-                                    conversions…
-                                </p>
+                        <div class="tab-content">
+                            <div class="tab-pane container active" id="home">
+                                <div class="log-area">
+                                    <div class="activity-box">
+                                        <img class="activity-icon" src="assets/icons/recent facebook.svg" alt="">
+                                        <div>
+                                            <div class="title">Campaign Name: Facebook AD copy</div>
+                                            <p class="mb-1">
+                                                Think your business is too small for professional branding? Think again.
+                                                This is like art meeting tech…
+                                            </p>
+                                            <a href="#">http://link.com/artculture</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="activity-box">
+                                        <img class="activity-icon" src="assets/icons/recent IG.svg" alt="">
+                                        <div>
+                                            <div class="title">Campaign Name: Facebook AD copy</div>
+                                            <p class="mb-1">
+                                                Think your business is too small for professional branding? Think again.
+                                                This is like art meeting tech…
+                                            </p>
+                                            <a href="#">http://link.com/artculture</a>
+                                        </div>
+                                    </div>
+
+                                    <div class="activity-box">
+                                        <img class="activity-icon" src="assets/icons/recent-email.svg" alt="">
+                                        <div>
+                                            <div class="title">Campaign Name: Facebook AD copy</div>
+                                            <p class="mb-1">
+                                                Think your business is too small for professional branding? Think again.
+                                                This is like art meeting tech…
+                                            </p>
+                                            <a href="#">http://link.com/artculture</a>
+                                        </div>
+                                    </div>
+                                    
+                                    
+                                </div>
                             </div>
-                            <div class="activity-box">
-                                <div class="time">31 July, 2017</div>
-                                <p>
-                                    Facebook pixel tracking now fires custom events when
-                                    a form is submitted or a button link is clicked.
-                                </p>
-                            </div>
-                            <div class="activity-box">
-                                <div class="time">31 July, 2017</div>
-                                <p>
-                                    Facebook pixel tracking now fires custom events when
-                                    a form is submitted or a button link is clicked.
-                                </p>
-                            </div>
+                            <div class="tab-pane container fade" id="menu1">...</div>
+
                         </div>
+
                     </div>
                 </div>
             </div>

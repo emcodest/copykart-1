@@ -340,6 +340,13 @@ html {
     padding: 4rem 2rem 2rem 2.3rem;
     border-radius: 2rem;
     max-width: 240px;
+    transition: 0.5s linear;
+}
+
+
+.dashboard-box:hover {
+    transform: rotate3d(1, 0, 1, 5deg);
+    box-shadow: 7px 9px 3px #c6bebe;
 }
 
 .dashboard-box .icon-circle {
@@ -363,7 +370,7 @@ html {
 }
 
 .icon-road-map {
-    width: 1.2rem;
+    width: 0.8rem;
     margin-right: 0.5rem;
 }
 
@@ -495,25 +502,24 @@ html {
 
 .log-header a,
 .vid-header .more-vid {
-    font-size: 0.95rem;
+    font-size: 0.75rem;
     padding: .475rem .75rem;
 
 }
 
 .log-header a span::before {
-    font-size: 1rem;
+    font-size: 0.8rem;
     margin-right: 0.4rem;
 }
 
 .log-header .btn-activity {
-    color: #ffffff;
+    color: var(--assent-color);
     border-radius: 0.8rem 0 0 0.8rem;
-    background-color: var(--assent-color);
+    background-color: #f2f5fb;
     margin-right: 0.5rem;
 }
 
 .log-header .btn-road-map {
-    background-color: #f6f8fd;
     color: var(--assent-color);
     margin-top: 0;
     border-radius: 0 0.8rem 0.8rem 0;
@@ -524,24 +530,36 @@ html {
 }
 
 .log-area .activity-box {
-    font-size: 0.75rem;
-    background-color: #ddeefe;
+    font-size: 0.6rem;
+    background-color: #f2f5fb;
     border-radius: 1rem;
-    padding: 1.5rem 2rem 1.3rem 2rem;
+    padding: 0.9rem 1.2rem 0.8rem 1.2rem;
     transition: all 0.5s;
     margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
 }
 
-.activity-box .time {
+.activity-box .activity-icon {
+    width: 5rem;
+    margin-right: 1rem;
+}
+
+.activity-box .title {
     color: var(--assent-color);
-    font-size: 1rem;
+    font-size: 0.7rem;
     margin-bottom: 0.5rem;
-    display: none;
 }
 
-.activity-box:hover .time {
-    display: block;
+.activity-box a {
+    color: #bebebe;
+    font-size: 0.6rem;
+    text-decoration: none;
 }
+
+/* .activity-box:hover .time {
+    display: block;
+} */
 
 .show {
     display: block !important;
@@ -2262,6 +2280,40 @@ input:checked+.slider:before {
     transform: translateX(19px);
 }
 
+.title-text,
+.date-wrap {
+    margin: 3rem 0;
+    font-size: 1rem;
+    color: #838383;
+    display: flex;
+    align-items: center;
+}
+
+.date-today {
+    letter-spacing: 2px;
+    margin-left: 0.5rem;
+}
+
+.analyse-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.analyse-wrap .analyse-form {
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid #b5afaf;
+    margin-right: 1rem;
+    height: calc(1.5em + 1.45rem + 2px);
+}
+
+.analyse-wrap .btn-analyse {
+    width: 300px;
+    background-color: #f2f5fb;
+    color: #2767de;
+    font-size: 1.5rem;
+}
 
 @keyframes slide-in {
     from {
