@@ -338,9 +338,9 @@ html {
 
 .dashboard-box {
     padding: 4rem 2rem 2rem 2.3rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     max-width: 240px;
-    transition: 0.5s linear;
+    transition: 0.2s linear;
 }
 
 
