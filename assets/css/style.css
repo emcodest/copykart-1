@@ -340,13 +340,13 @@ html {
     padding: 4rem 2rem 2rem 2.3rem;
     border-radius: 1rem;
     max-width: 240px;
-    transition: 0.2s linear;
+    transition: 0.1s linear;
 }
 
 
 .dashboard-box:hover {
-    transform: rotate3d(1, 0, 1, 5deg);
-    box-shadow: 7px 9px 3px #c6bebe;
+    box-shadow: 0.5rem 0.5rem 0 rgba(233, 236, 239, 0.5);
+    transform: translate3d(-4px, -4px, 0) rotateZ(-1deg);
 }
 
 .dashboard-box .icon-circle {
