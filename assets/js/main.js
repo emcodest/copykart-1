@@ -115,6 +115,93 @@
         $('.slide-in-wrap').removeClass('show');
     });
 
+    $('[data-toggle="tooltip"]').tooltip();
+
+
+
+    var keywords = [];
+    var keywordsToAvoid = [];
+
+
+    $('#keyword').keypress(function (e) {
+
+
+        if (e.which === 13) {
+            var elem = '<div class="keyword-main">' +
+                '<div style = "display: inline-block;" class = "mt-1 mb-1" > ' +
+                '<div class = "keyword-items">' +
+                '<span>' + this.value + '</span>' +
+                '<img data-value=" ' + this.value + ' "  src="../assets/icons/times-icon.8fb56838.svg" class="times-icon close-keyword">' +
+                '</div>' +
+                '</div>' +
+                '</div>';
+
+            $("#keyword-list").append(elem);
+
+            keywords.push(this.value);
+            this.value = "";
+            console.log(keywords);
+        }
+    });
+
+    $('#keyword-avoid').keypress(function (e) {
+
+
+        if (e.which === 13) {
+            var elem = '<div class="keyword-main">' +
+                '<div style = "display: inline-block;" class = "mt-1 mb-1" > ' +
+                '<div class = "keyword-items">' +
+                '<span>' + this.value + '</span>' +
+                '<img data-value=" ' + this.value + ' "  src="../assets/icons/times-icon.8fb56838.svg" class="times-icon close-keyword">' +
+                '</div>' +
+                '</div>' +
+                '</div>';
+
+            $("#keyword-avoid-list").append(elem);
+
+            keywords.push(this.value);
+            this.value = "";
+            console.log(keywords);
+        }
+    });
+
+    $(document).on('click', '.close-keyword', function () {
+        // This will work!
+        removeTag(this);
+    });
+
+    function removeTag(x) {
+        $(x).parent().parent().parent('.keyword-main').remove();
+        console.log(x);
+        // keywords = keywords.filter((keyword) => {
+        //     console.log('Keyword: ' + keyword);
+        //     console.log('data-value' + x.getAttribute('data-value'));
+        //     return keyword !== x.getAttribute('data-value');
+        // });
+        keywords = $.grep(keywords, function (value) {
+            return value != x.getAttribute('data-value');
+        });
+
+        console.log(typeof x.getAttribute('data-value'));
+        console.log(keywords);
+    }
+
+
+
+
+
+    function addKeyword(val, target) {
+        var elem = '<div class="keyword-main">' +
+            '<div style = "display: inline-block;" class = "mt-1 mb-1" > ' +
+            '<div class = "keyword-items">' +
+            '<span>' + val + '</span>' +
+            '<img src = "../assets/icons/times-icon.8fb56838.svg" class = "times-icon" >' +
+            '</div>' +
+            '</div>' +
+            '</div>';
+        target.append(elem);
+    }
+
 
 
 

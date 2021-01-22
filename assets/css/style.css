@@ -752,7 +752,9 @@ html {
 
 .campaign-form-wrap {
     background-color: #fbfcfd;
-    padding: 2rem 2.5rem;
+    padding: 2rem 1.8rem;
+    height: calc(100vh - 220px);
+    overflow-y: auto;
 }
 
 .campaign-form-wrap label {
@@ -2351,6 +2353,79 @@ input:checked+.slider:before {
     background-color: #f2f5fb;
     color: #2767de;
     font-size: 1.5rem;
+}
+
+.form-info {
+    position: absolute;
+    top: 0.925rem;
+    right: -1.7rem;
+    font-size: 0.85rem;
+}
+
+.form-group {
+    position: relative;
+}
+
+.tooltip-inner {
+    background-color: #00000091;
+    min-width: 300px;
+    font-size: 0.8rem;
+    text-align: left;
+}
+
+.tooltip.bs-tooltip-right .arrow:before {
+    border-right-color: #00000091 !important;
+}
+
+#keyword-list, #keyword-avoid-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.keyword-items {
+    padding: 2px 5px 2px 12px;
+    margin-right: 10px;
+    border-radius: 14px;
+    border: 1px solid rgb(196, 196, 196);
+    background-color: white;
+    cursor: default;
+    color: rgb(82, 58, 231);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    -moz-box-pack: justify;
+    justify-content: space-between;
+}
+
+.keyword-items:hover {
+    background-color: rgba(82, 58, 231, 0.063);
+}
+
+.times-icon {
+    color: rgb(82, 58, 231);
+    width: 15px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#keyword-list span.text, #keyword-avoid-list span.text {
+    margin-right: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.keyword-main {
+    margin-left: 0px;
+    animation: float-in 0.3s 1 linear;
+}
+
+@keyframes float-in {
+    from {
+        transform: translate(7px, 0px);
+    }
+    to {
+        transform: translate(0, 0);
+    }
 }
 
 @keyframes slide-in {
