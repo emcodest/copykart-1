@@ -156,7 +156,7 @@
                         </div>
                     </div>
                     <ul class="nav align-items-center secondary-actions">
-                         
+
                         <li class="nav-item">
                             <a class="nav-link" href="#">
                                 <img class="right-icons-sm" src="../assets/icons/Help.svg" alt="help">
@@ -265,7 +265,7 @@
             <div class="row">
                 <div class="col-6">
                     <div class="campaign-form-wrap">
-                        <form action="">
+                        <form action="#">
                             <div class="form-group">
                                 <label for="product-name">Product Name</label>
                                 <input type="text" class="form-control campaign-input" name="" id="product-name"
@@ -276,7 +276,18 @@
                                 <input type="text" class="form-control campaign-input" name="" id="audience-input"
                                     placeholder="Eg. ecom, millennials, internet marketing">
                             </div>
-                            <div class="form-group">
+                            <div class="form-group with-label">
+                                <div data-toggle="tooltip" data-placement="top" class="form-info"
+                                    title="Add 1-3 sentences that showcase your brand tone and your value proposition.">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle"
+                                        class="svg-inline--fa fa-info-circle fa-w-16 " role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                        style="color: rgb(0, 0, 0); width: 22px; height: 14px;">
+                                        <path fill="currentColor"
+                                            d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z">
+                                        </path>
+                                    </svg>
+                                </div>
                                 <label for="desc-input">Product Description</label>
                                 <textarea class="form-control campaign-input" name="" id="desc-input" cols="30" rows="5"
                                     placeholder="Eg. We sell everything god and nice"></textarea>
@@ -298,12 +309,27 @@
                                     <div class="row">
                                         <div class="col-6">
                                             <div class="form-group">
-                                                <input type="text" class="form-control campaign-input" name="" id=""
-                                                    placeholder="Add Keywords" value="Add Keywords">
+                                                <input type="text" class="form-control campaign-input" name=""
+                                                    id="keyword" placeholder="Enter ↵" value="Keywords">
+                                                <div data-toggle="tooltip" data-placement="right" class="form-info"
+                                                    title="We recommend 1-3 keywords. e.g. Luxurious, Natural, High-quality">
+                                                    <svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                                        data-icon="info-circle"
+                                                        class="svg-inline--fa fa-info-circle fa-w-16 " role="img"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                        style="color: rgb(0, 0, 0); width: 22px; height: 14px;">
+                                                        <path fill="currentColor"
+                                                            d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z">
+                                                        </path>
+                                                    </svg>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                            </div>
+                            <div id="keyword-list" class="my-1">
+                                <span class="text">Keywords: </span>
                             </div>
                             <div class="d-flex align-items-center">
                                 <span class="check-label">Quality Score</span>
@@ -390,7 +416,7 @@
                                         <a class="actions-social active" href="#">
                                             <span class="flaticon-shield icons"></span>
                                         </a>
-                                        <a  class="actions-social love-work" href="#">
+                                        <a class="actions-social love-work" href="#">
                                             <span class="flaticon-like icons"></span>
                                         </a>
                                         <a class="actions-social" href="#">

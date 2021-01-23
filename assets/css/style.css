@@ -2362,6 +2362,11 @@ input:checked+.slider:before {
     font-size: 0.85rem;
 }
 
+.with-label .form-info {
+    top: 0.125rem;
+    right: 0.3rem;
+}
+
 .form-group {
     position: relative;
 }
@@ -2377,7 +2382,8 @@ input:checked+.slider:before {
     border-right-color: #00000091 !important;
 }
 
-#keyword-list, #keyword-avoid-list {
+#keyword-list,
+#keyword-avoid-list {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -2409,7 +2415,8 @@ input:checked+.slider:before {
     cursor: pointer;
 }
 
-#keyword-list span.text, #keyword-avoid-list span.text {
+#keyword-list span.text,
+#keyword-avoid-list span.text {
     margin-right: 0.5rem;
     font-size: 0.8rem;
 }
@@ -2423,6 +2430,7 @@ input:checked+.slider:before {
     from {
         transform: translate(7px, 0px);
     }
+
     to {
         transform: translate(0, 0);
     }
