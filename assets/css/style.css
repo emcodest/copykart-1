@@ -2,6 +2,7 @@
 
 html {
     zoom: 90%;
+    /* transform: scaleX(0.9); */
 }
 
 .icons::before {
@@ -753,7 +754,7 @@ html {
 .campaign-form-wrap {
     background-color: #fbfcfd;
     padding: 2rem 1.8rem;
-    height: calc(100vh - 220px);
+    height: calc(100vh - 200px);
     overflow-y: auto;
 }
 
@@ -870,11 +871,13 @@ input:checked+.slider:before {
 
 .social-outter {
     position: relative;
+    height: calc(100vh - 200px);
+    overflow-y: auto;
 }
 
 .social-wrap {
     position: relative;
-    overflow: hidden;
+    /* overflow: hidden; */
     margin-bottom: 1.5rem;
     padding: 1.5rem;
 }
