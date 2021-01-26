@@ -121,48 +121,46 @@
 
     var keywords = [];
     var keywordsToAvoid = [];
+    var charList = [];
 
 
-    $('#keyword').keypress(function (e) {
+    function attachKeypressEvent(input, target, arr) {
+        $(input).keypress(function (e) {
 
+            if (e.which === 13) {
+                if (this.value.length > 0) {
 
-        if (e.which === 13) {
-            var elem = '<div class="keyword-main">' +
-                '<div style = "display: inline-block;" class = "mt-1 mb-1" > ' +
-                '<div class = "keyword-items">' +
-                '<span>' + this.value + '</span>' +
-                '<img data-value=" ' + this.value + ' "  src="../assets/icons/times-icon.8fb56838.svg" class="times-icon close-keyword">' +
-                '</div>' +
-                '</div>' +
-                '</div>';
+                    var elem = '<div class="keyword-main">' +
+                        '<div style = "display: inline-block;" class = "mt-1 mb-1" > ' +
+                        '<div class = "keyword-items">' +
+                        '<span>' + this.value + '</span>' +
+                        '<img data-value=" ' + this.value + ' "  src="../assets/icons/times-icon.8fb56838.svg" class="times-icon close-keyword">' +
+                        '</div>' +
+                        '</div>' +
+                        '</div>';
 
-            $("#keyword-list").append(elem);
+                    $(target).append(elem);
 
-            keywords.push(this.value);
-            this.value = "";
-            console.log(keywords);
-        }
-    });
+                    arr.push(this.value);
+                    this.value = "";
+                    console.log(keywords);
+                }
 
-    $('#keyword-avoid').keypress(function (e) {
+            }
+        });
+    }
 
+    attachKeypressEvent('#product-char', '#char-list', charList);
+    attachKeypressEvent('#keyword', '#keyword-list', keywords);
+    attachKeypressEvent('#keyword-avoid', '#keyword-avoid-list', keywordsToAvoid);
 
-        if (e.which === 13) {
-            var elem = '<div class="keyword-main">' +
-                '<div style = "display: inline-block;" class = "mt-1 mb-1" > ' +
-                '<div class = "keyword-items">' +
-                '<span>' + this.value + '</span>' +
-                '<img data-value=" ' + this.value + ' "  src="../assets/icons/times-icon.8fb56838.svg" class="times-icon close-keyword">' +
-                '</div>' +
-                '</div>' +
-                '</div>';
-
-            $("#keyword-avoid-list").append(elem);
-
-            keywords.push(this.value);
-            this.value = "";
-            console.log(keywords);
-        }
+    $('.btn-search-campaign').on('click', function () {
+        if ($('.search-wrap').hasClass('active')) {
+            $('.search-wrap').removeClass('active');
+            return;
+        } 
+        $('.search-wrap').addClass('active');
+        $('.search-wrap input').focus();
     });
 
     $(document).on('click', '.close-keyword', function () {

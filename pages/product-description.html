@@ -37,42 +37,48 @@
                                 <ul class="nav flex-column">
                                     <li class="nav-item">
                                         <a class="nav-link" href="facebook-ad-copy.html">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/Facebook.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/Facebook.svg"
                                                 alt="facebook icon">
                                             Facebook Ad
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="google-ad-copy.html">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/Google.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/Google.svg"
                                                 alt="facebook icon">
                                             Google Ad
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="linkedin-ad-copy.html">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/Linkedin.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/Linkedin.svg"
                                                 alt="facebook icon">
                                             LinkedIn Ad
                                         </a>
                                     </li>
                                     <li class="nav-item py-2">
                                         <a class="nav-link" href="create.html">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/see more.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/see more.svg"
                                                 alt="facebook icon">
                                             See All Social Ad
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/wordpress.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/wordpress.svg"
                                                 alt="facebook icon">
                                             Blog Post
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/medium.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/medium.svg"
                                                 alt="facebook icon">
                                             Medium
                                         </a>
@@ -258,7 +264,7 @@
         <div class="container">
             <div class="campaign-title google">
                 <img src="../assets/icons/Create.svg" alt="" srcset="">
-                Ad Headline
+                Product Description
             </div>
 
             <div class="row">
@@ -267,18 +273,32 @@
                         <form action="#">
                             <div class="form-group">
                                 <label for="product-name">Company Name</label>
+                                <input type="text" class="form-control campaign-input" name="" id="company-name"
+                                    placeholder="">
+                            </div>
+                            <div class="form-group">
+                                <label for="product-name">Product Name</label>
                                 <input type="text" class="form-control campaign-input" name="" id="product-name"
                                     placeholder="">
                             </div>
-                            <div class="form-group">
-                                <label for="audience-input">Audience</label>
-                                <input type="text" class="form-control campaign-input" name="" id="audience-input"
-                                    placeholder="">
+                            <div class="form-group with-label">
+                                <div data-toggle="tooltip" data-placement="right" class="form-info"
+                                    title="We recommend 2-8 characteristics. You can also include pain points your product solves.">
+                                    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="info-circle"
+                                        class="svg-inline--fa fa-info-circle fa-w-16 " role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                        style="color: rgb(0, 0, 0); width: 22px; height: 14px;">
+                                        <path fill="currentColor"
+                                            d="M256 8C119.043 8 8 119.083 8 256c0 136.997 111.043 248 248 248s248-111.003 248-248C504 119.083 392.957 8 256 8zm0 110c23.196 0 42 18.804 42 42s-18.804 42-42 42-42-18.804-42-42 18.804-42 42-42zm56 254c0 6.627-5.373 12-12 12h-88c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h12v-64h-12c-6.627 0-12-5.373-12-12v-24c0-6.627 5.373-12 12-12h64c6.627 0 12 5.373 12 12v100h12c6.627 0 12 5.373 12 12v24z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <label for="product-name">Product Characteristics</label>
+                                <input type="text" class="form-control campaign-input" name="" id="product-char"
+                                    placeholder="Enter ↵">
                             </div>
-                            <div class="form-group">
-                                <label for="audience-input">Company Description</label>
-                                <textarea class="form-control campaign-input" name="" id="desc-input" cols="30" rows="5"
-                                    placeholder="Eg. We sell everything god and nice"></textarea>
+                            <div id="char-list">
+
                             </div>
                             <div class="row mt-4 mb-2">
                                 <div class="col-4">
@@ -292,8 +312,7 @@
                                         <div class="col-6">
                                             <div class="form-group">
                                                 <input type="text" class="form-control campaign-input" name=""
-                                                    id="keyword-avoid" placeholder="Enter ↵"
-                                                    value="Keywords to avoid">
+                                                    id="keyword-avoid" placeholder="Enter ↵" value="Keywords to avoid">
                                                 <div data-toggle="tooltip" data-placement="right" class="form-info"
                                                     title="We recommend 1-3 keywords. e.g. Luxurious, Natural, High-quality">
                                                     <svg aria-hidden="true" focusable="false" data-prefix="fas"
