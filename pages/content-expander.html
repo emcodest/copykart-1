@@ -38,42 +38,48 @@
                                 <ul class="nav flex-column">
                                     <li class="nav-item">
                                         <a class="nav-link" href="facebook-ad-copy.html">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/Facebook.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/Facebook.svg"
                                                 alt="facebook icon">
                                             Facebook Ad
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="google-ad-copy.html">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/Google.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/Google.svg"
                                                 alt="facebook icon">
                                             Google Ad
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="linkedin-ad-copy.html">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/Linkedin.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/Linkedin.svg"
                                                 alt="facebook icon">
                                             LinkedIn Ad
                                         </a>
                                     </li>
                                     <li class="nav-item py-2">
                                         <a class="nav-link" href="create.html">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/see more.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/see more.svg"
                                                 alt="facebook icon">
                                             See All Social Ad
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/wordpress.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/wordpress.svg"
                                                 alt="facebook icon">
                                             Blog Post
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="">
-                                            <img class="create-icons" src="../assets/icons/Copykart icons/Drop down Icons/medium.svg"
+                                            <img class="create-icons"
+                                                src="../assets/icons/Copykart icons/Drop down Icons/medium.svg"
                                                 alt="facebook icon">
                                             Medium
                                         </a>
@@ -259,7 +265,8 @@
         <div class="container">
             <div class="campaign-title google">
                 <img src="../assets/icons/Create.svg" alt="" srcset="">
-                Content Expander
+
+                <input type="text" value="Content Expander">
             </div>
 
             <div class="row">
@@ -293,28 +300,16 @@
                                 <input type="text" class="form-control campaign-input" name="" id="audience-input"
                                     placeholder="">
                             </div>
-                            <div class="row mt-4 mb-2">
-                                <!-- <div class="col-4">
-                                    <div class="form-group">
-                                        <input type="text" class="form-control campaign-input" name="" id=""
-                                            placeholder="Add Keywords" value="Brand Keywords">
-                                    </div>
-                                </div> -->
-                                <div class="col-8">
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control campaign-input" name=""
-                                                    id="keyword-avoid" placeholder="Add Keywords"
-                                                    value="Keywords to avoid">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                            <div class="form-group">
+                                <label for="desc-url">Keywords to Avoid</label>
+                                <input type="text" class="form-control campaign-input" name="" id="keyword-avoid"
+                                    placeholder="Enter ↵" value="">
                             </div>
                             <div id="keyword-avoid-list" class="my-1">
-                                <span class="text">Avoid Keywords: </span>
+
                             </div>
+
+
                             <div class="d-flex align-items-center">
                                 <span class="check-label">Quality Score</span>
                                 <label class="switch mb-0">
@@ -340,7 +335,10 @@
                     </div>
                 </div>
                 <div class="col-6">
-                    <div class="social-outter">
+                    <div class="social-outter result-invisible">
+                        <div class="result-pre-loader">
+                            <img src="../assets/images/loader.gif" alt="">
+                        </div>
                         <div class="social-wrap bg-light-blue">
                             <!-- <div class="floating-check">
                                 <span class="flaticon-check icons"></span>

@@ -1007,12 +1007,12 @@ input:checked+.slider:before {
 }
 
 .interactions-wrap .emoji-icons {
-    width: 1.5rem;
+    width: 2.5rem;
 }
 
-.interactions-wrap .emoji-icons:nth-child(2) {
+/* .interactions-wrap .emoji-icons:nth-child(2) {
     margin-left: -5px;
-}
+} */
 
 .interactions-wrap .interaction-value {
     font-size: 0.9rem;
