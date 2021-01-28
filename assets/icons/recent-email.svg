@@ -1,12 +1,1 @@
-<svg id="Group_885" data-name="Group 885" xmlns="http://www.w3.org/2000/svg" width="71.743" height="71.743" viewBox="0 0 71.743 71.743">
-  <g id="Group_251" data-name="Group 251" transform="translate(0 0)">
-    <g id="Group_244" data-name="Group 244" transform="translate(0 0)" opacity="0.2">
-      <circle id="Ellipse_82" data-name="Ellipse 82" cx="35.872" cy="35.872" r="35.872" fill="#2263de"/>
-    </g>
-  </g>
-  <g id="Icon_19_" transform="translate(21.354 23.377)">
-    <g id="Group_340" data-name="Group 340" transform="translate(0 0)">
-      <path id="Path_871" data-name="Path 871" d="M59.052,80h-24.2A2.856,2.856,0,0,0,32,82.848v17.8a2.856,2.856,0,0,0,2.848,2.848h24.2a2.856,2.856,0,0,0,2.848-2.848v-17.8A2.856,2.856,0,0,0,59.052,80ZM58.7,86.051,46.95,93.882,35.2,86.051V83.2L46.95,91.034,58.7,83.2Z" transform="translate(-32 -80)" fill="#2263de"/>
-    </g>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" id="Group_885" width="71.743" height="71.743" data-name="Group 885" viewBox="0 0 71.743 71.743"><g id="Group_251" data-name="Group 251" transform="translate(0 0)"><g id="Group_244" data-name="Group 244" opacity=".2" transform="translate(0 0)"><circle id="Ellipse_82" cx="35.872" cy="35.872" r="35.872" fill="#2263de" data-name="Ellipse 82"/></g></g><g id="Icon_19_" transform="translate(21.354 23.377)"><g id="Group_340" data-name="Group 340" transform="translate(0 0)"><path id="Path_871" fill="#2263de" d="M59.052,80h-24.2A2.856,2.856,0,0,0,32,82.848v17.8a2.856,2.856,0,0,0,2.848,2.848h24.2a2.856,2.856,0,0,0,2.848-2.848v-17.8A2.856,2.856,0,0,0,59.052,80ZM58.7,86.051,46.95,93.882,35.2,86.051V83.2L46.95,91.034,58.7,83.2Z" data-name="Path 871" transform="translate(-32 -80)"/></g></g></svg>

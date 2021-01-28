@@ -1,12 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="137.593" height="33" viewBox="0 0 137.593 33">
-  <g id="Group_899" data-name="Group 899" transform="translate(-69 -44)">
-    <g id="Group_898" data-name="Group 898" transform="translate(0 -2)">
-      <path id="ic_navigate_next_48px" d="M15.956,0V21.554L0,10.777Z" transform="translate(206.593 73.554) rotate(-180)" fill="#2263de"/>
-      <g id="Rectangle_768" data-name="Rectangle 768" transform="translate(69 46)" fill="#2263de" stroke="#fff" stroke-width="1.5">
-        <rect width="128" height="33" rx="16.5" stroke="none"/>
-        <rect x="0.75" y="0.75" width="126.5" height="31.5" rx="15.75" fill="none"/>
-      </g>
-    </g>
-    <text id="Copykart" transform="translate(98 67)" fill="#fff" font-size="17" font-family="Rubik-Medium, Rubik" font-weight="500"><tspan x="0" y="0">Copykart</tspan></text>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="137.593" height="33" viewBox="0 0 137.593 33"><g id="Group_899" data-name="Group 899" transform="translate(-69 -44)"><g id="Group_898" data-name="Group 898" transform="translate(0 -2)"><path id="ic_navigate_next_48px" fill="#2263de" d="M15.956,0V21.554L0,10.777Z" transform="translate(206.593 73.554) rotate(-180)"/><g id="Rectangle_768" fill="#2263de" stroke="#fff" stroke-width="1.5" data-name="Rectangle 768" transform="translate(69 46)"><rect width="128" height="33" stroke="none" rx="16.5"/><rect width="126.5" height="31.5" x=".75" y=".75" fill="none" rx="15.75"/></g></g><text id="Copykart" fill="#fff" font-family="Rubik-Medium, Rubik" font-size="17" font-weight="500" transform="translate(98 67)"><tspan x="0" y="0">Copykart</tspan></text></g></svg>

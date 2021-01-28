@@ -1,8 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30">
-  <g id="Group_870" data-name="Group 870" transform="translate(-721 -46)">
-    <g id="Group_231" data-name="Group 231" transform="translate(484 -259.145)">
-      <circle id="Ellipse_78" data-name="Ellipse 78" cx="15" cy="15" r="15" transform="translate(237 305.145)" fill="#2263de"/>
-    </g>
-    <path id="ic_people_48px" d="M12.194,14.078a2.039,2.039,0,1,0-2.039-2.039A2.035,2.035,0,0,0,12.194,14.078Zm-5.437,0a2.039,2.039,0,1,0-2.039-2.039A2.035,2.035,0,0,0,6.757,14.078Zm0,1.359c-1.587,0-4.757.8-4.757,2.379v1.7h9.514v-1.7C11.514,16.232,8.344,15.437,6.757,15.437Zm5.437,0c-.2,0-.418.014-.656.037a2.849,2.849,0,0,1,1.335,2.341v1.7h4.078v-1.7C16.951,16.232,13.781,15.437,12.194,15.437Z" transform="translate(727 46)" fill="#fff"/>
-  </g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30"><g id="Group_870" data-name="Group 870" transform="translate(-721 -46)"><g id="Group_231" data-name="Group 231" transform="translate(484 -259.145)"><circle id="Ellipse_78" cx="15" cy="15" r="15" fill="#2263de" data-name="Ellipse 78" transform="translate(237 305.145)"/></g><path id="ic_people_48px" fill="#fff" d="M12.194,14.078a2.039,2.039,0,1,0-2.039-2.039A2.035,2.035,0,0,0,12.194,14.078Zm-5.437,0a2.039,2.039,0,1,0-2.039-2.039A2.035,2.035,0,0,0,6.757,14.078Zm0,1.359c-1.587,0-4.757.8-4.757,2.379v1.7h9.514v-1.7C11.514,16.232,8.344,15.437,6.757,15.437Zm5.437,0c-.2,0-.418.014-.656.037a2.849,2.849,0,0,1,1.335,2.341v1.7h4.078v-1.7C16.951,16.232,13.781,15.437,12.194,15.437Z" transform="translate(727 46)"/></g></svg>
